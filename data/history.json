@@ -1,0 +1,345 @@
+{
+    "cathrynlavery/diagram-design": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "HTML",
+        "highest_rank_achieved": 1,
+        "total_stars": "13,296",
+        "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    "semantica-agi/semantica": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 2,
+        "total_stars": "6,242",
+        "url": "https://github.com/semantica-agi/semantica"
+    },
+    "anthropics/skills": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 3,
+        "total_stars": "168,832",
+        "url": "https://github.com/anthropics/skills"
+    },
+    "cactus-compute/needle": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 4,
+        "total_stars": "4,732",
+        "url": "https://github.com/cactus-compute/needle"
+    },
+    "altic-dev/FluidVoice": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 5,
+        "total_stars": "9,728",
+        "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    "unslothai/unsloth": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 6,
+        "total_stars": "70,864",
+        "url": "https://github.com/unslothai/unsloth"
+    },
+    "macro-inc/macro": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 7,
+        "total_stars": "2,459",
+        "url": "https://github.com/macro-inc/macro"
+    },
+    "megadose/holehe": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "12,252",
+        "url": "https://github.com/megadose/holehe"
+    },
+    "smicallef/spiderfoot": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "20,526",
+        "url": "https://github.com/smicallef/spiderfoot"
+    },
+    "NVIDIA-NeMo/Switchyard": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 10,
+        "total_stars": "1,073",
+        "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    "holaboss-ai/holaOS": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "6,296",
+        "url": "https://github.com/holaboss-ai/holaOS"
+    },
+    "kepano/obsidian-skills": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 12,
+        "total_stars": "45,447",
+        "url": "https://github.com/kepano/obsidian-skills"
+    },
+    "3b1b/manim": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "90,719",
+        "url": "https://github.com/3b1b/manim"
+    },
+    "msitarzewski/agency-agents": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 14,
+        "total_stars": "145,050",
+        "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    "Lightricks/LTX-2": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "8,834",
+        "url": "https://github.com/Lightricks/LTX-2"
+    },
+    "lightningpixel/modly": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 16,
+        "total_stars": "5,231",
+        "url": "https://github.com/lightningpixel/modly"
+    },
+    "infiniflow/ragflow": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Go",
+        "highest_rank_achieved": 17,
+        "total_stars": "87,877",
+        "url": "https://github.com/infiniflow/ragflow"
+    },
+    "PrimeIntellect-ai/prime-agent": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 1,
+        "total_stars": "15,307",
+        "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    "google/skills": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 3,
+        "total_stars": "18,019",
+        "url": "https://github.com/google/skills"
+    },
+    "cloudflare/computer": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 4,
+        "total_stars": "7,932",
+        "url": "https://github.com/cloudflare/computer"
+    },
+    "TencentCloud/TencentDB-Agent-Memory": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 5,
+        "total_stars": "21,085",
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    "vitali87/code-graph-rag": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 6,
+        "total_stars": "4,171",
+        "url": "https://github.com/vitali87/code-graph-rag"
+    },
+    "huangruiteng/loopx": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "4,567",
+        "url": "https://github.com/huangruiteng/loopx"
+    },
+    "addyosmani/agent-skills": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "86,783",
+        "url": "https://github.com/addyosmani/agent-skills"
+    },
+    "drawdb-io/drawdb": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "38,999",
+        "url": "https://github.com/drawdb-io/drawdb"
+    },
+    "firecrawl/pdf-inspector": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 10,
+        "total_stars": "15,240",
+        "url": "https://github.com/firecrawl/pdf-inspector"
+    },
+    "LadybirdBrowser/ladybird": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "C++",
+        "highest_rank_achieved": 11,
+        "total_stars": "65,522",
+        "url": "https://github.com/LadybirdBrowser/ladybird"
+    },
+    "esengine/DeepSeek-Reasonix": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Go",
+        "highest_rank_achieved": 12,
+        "total_stars": "34,411",
+        "url": "https://github.com/esengine/DeepSeek-Reasonix"
+    },
+    "zhaoxuya520/reverse-skill": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "PowerShell",
+        "highest_rank_achieved": 14,
+        "total_stars": "24,792",
+        "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    "TapXWorld/ChinaTextbook": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Roff",
+        "highest_rank_achieved": 15,
+        "total_stars": "79,239",
+        "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    "virgiliojr94/book-to-skill": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "21,099",
+        "url": "https://github.com/virgiliojr94/book-to-skill"
+    },
+    "Comfy-Org/ComfyUI": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 17,
+        "total_stars": "127,268",
+        "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    "diegosouzapw/OmniRoute": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 1,
+        "total_stars": "47,074",
+        "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    "koala73/worldmonitor": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 2,
+        "total_stars": "81,502",
+        "url": "https://github.com/koala73/worldmonitor"
+    },
+    "1jehuang/jcode": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 3,
+        "total_stars": "17,414",
+        "url": "https://github.com/1jehuang/jcode"
+    },
+    "Nutlope/hallmark": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "CSS",
+        "highest_rank_achieved": 6,
+        "total_stars": "24,596",
+        "url": "https://github.com/Nutlope/hallmark"
+    },
+    "pingdotgg/t3code": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 7,
+        "total_stars": "18,545",
+        "url": "https://github.com/pingdotgg/t3code"
+    },
+    "HKUDS/DeepTutor": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "35,397",
+        "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    "stablyai/orca": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "44,675",
+        "url": "https://github.com/stablyai/orca"
+    },
+    "mattpocock/skills": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 10,
+        "total_stars": "216,034",
+        "url": "https://github.com/mattpocock/skills"
+    },
+    "every-app/open-seo": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "11,695",
+        "url": "https://github.com/every-app/open-seo"
+    },
+    "earendil-works/pi": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "89,397",
+        "url": "https://github.com/earendil-works/pi"
+    },
+    "tirth8205/code-review-graph": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 14,
+        "total_stars": "29,999",
+        "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    "agegr/pi-web": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "4,151",
+        "url": "https://github.com/agegr/pi-web"
+    },
+    "kangarooking/cangjie-skill": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "7,649",
+        "url": "https://github.com/kangarooking/cangjie-skill"
+    },
+    "MoonshotAI/kimi-code": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 17,
+        "total_stars": "6,532",
+        "url": "https://github.com/MoonshotAI/kimi-code"
+    },
+    "different-ai/openwork": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 18,
+        "total_stars": "22,024",
+        "url": "https://github.com/different-ai/openwork"
+    },
+    "PrismML-Eng/Bonsai-demo": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 19,
+        "total_stars": "2,200",
+        "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+    },
+    "tt-a1i/archify": {
+        "discovered_on": "2026-08-13",
+        "category_lang": "HTML",
+        "highest_rank_achieved": 20,
+        "total_stars": "11,986",
+        "url": "https://github.com/tt-a1i/archify"
+    }
+}
