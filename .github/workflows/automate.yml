@@ -43,6 +43,7 @@ jobs:
             exit 0
           fi
           git commit -m "Auto-update: Scraped Data & DevOps Analysis [skip ci]"
-          git pull --rebase --autostash origin main || true
+          git fetch origin main
+          git rebase origin/main
           git push origin main
 
