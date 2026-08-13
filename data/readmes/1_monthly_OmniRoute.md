@@ -1,5 +1,5 @@
 # diegosouzapw/OmniRoute
-**Language:** TypeScript | **Rank:** 1 | **Total Stars:** 46,929
+**Language:** TypeScript | **Rank:** 1 | **Total Stars:** 47,038
 **URL:** https://github.com/diegosouzapw/OmniRoute
 
 <div align="center">

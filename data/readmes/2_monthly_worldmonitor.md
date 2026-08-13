@@ -1,5 +1,5 @@
 # koala73/worldmonitor
-**Language:** TypeScript | **Rank:** 2 | **Total Stars:** 81,422
+**Language:** TypeScript | **Rank:** 2 | **Total Stars:** 81,477
 **URL:** https://github.com/koala73/worldmonitor
 
 # World Monitor
@@ -62,7 +62,7 @@
 - **Local AI** — run everything with Ollama, no API keys required
 - **6 site variants** from a single codebase (world, tech, finance, commodity, happy, energy)
 - **Native desktop app** (Tauri 2) for macOS, Windows, and Linux
-- **26 languages** with native-language feeds and RTL support
+- **28 languages** with native-language feeds and RTL support
 
 For the full feature list, architecture, data sources, and algorithms, see the **[documentation](https://www.worldmonitor.app/docs/documentation)**.
 

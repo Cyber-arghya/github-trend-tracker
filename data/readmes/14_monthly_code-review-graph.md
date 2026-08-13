@@ -1,5 +1,5 @@
 # tirth8205/code-review-graph
-**Language:** Python | **Rank:** 14 | **Total Stars:** 29,976
+**Language:** Python | **Rank:** 14 | **Total Stars:** 29,992
 **URL:** https://github.com/tirth8205/code-review-graph
 
 <h1 align="center">code-review-graph</h1>

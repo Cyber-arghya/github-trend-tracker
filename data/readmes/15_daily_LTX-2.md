@@ -1,5 +1,5 @@
 # Lightricks/LTX-2
-**Language:** Python | **Rank:** 15 | **Total Stars:** 8,799
+**Language:** Python | **Rank:** 15 | **Total Stars:** 8,824
 **URL:** https://github.com/Lightricks/LTX-2
 
 # LTX-2

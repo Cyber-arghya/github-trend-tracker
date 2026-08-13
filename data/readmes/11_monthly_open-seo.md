@@ -1,5 +1,5 @@
 # every-app/open-seo
-**Language:** TypeScript | **Rank:** 11 | **Total Stars:** 11,645
+**Language:** TypeScript | **Rank:** 11 | **Total Stars:** 11,682
 **URL:** https://github.com/every-app/open-seo
 
 # OpenSEO

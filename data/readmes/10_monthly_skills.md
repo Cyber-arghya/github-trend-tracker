@@ -1,5 +1,5 @@
 # mattpocock/skills
-**Language:** Shell | **Rank:** 10 | **Total Stars:** 215,771
+**Language:** Shell | **Rank:** 10 | **Total Stars:** 215,966
 **URL:** https://github.com/mattpocock/skills
 
 <p>

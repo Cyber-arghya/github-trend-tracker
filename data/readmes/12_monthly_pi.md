@@ -1,5 +1,5 @@
 # earendil-works/pi
-**Language:** TypeScript | **Rank:** 12 | **Total Stars:** 89,162
+**Language:** TypeScript | **Rank:** 12 | **Total Stars:** 89,331
 **URL:** https://github.com/earendil-works/pi
 
 <p align="center">

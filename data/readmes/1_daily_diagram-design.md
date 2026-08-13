@@ -1,5 +1,5 @@
 # cathrynlavery/diagram-design
-**Language:** HTML | **Rank:** 1 | **Total Stars:** 12,495
+**Language:** HTML | **Rank:** 1 | **Total Stars:** 13,094
 **URL:** https://github.com/cathrynlavery/diagram-design
 
 # Diagram Design
