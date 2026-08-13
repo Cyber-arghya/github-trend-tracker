@@ -14,7 +14,7 @@ def main():
     base = Path("data")
     (readmes := base / "readmes").mkdir(parents=True, exist_ok=True)
     (feeder := base / "feeder" / "latest").exists() and shutil.rmtree(feeder)
-    feeder.mkdir(parents=True)
+    feeder.mkdir(parents=True, exist_ok=True)
     
     hist_file = base / "history.json"
     history = json.loads(hist_file.read_text()) if hist_file.exists() else {}
@@ -63,6 +63,8 @@ def main():
                 archive = readmes / readme_fname
                 archive.write_text(f"# {name}\n**Language:** {lang} | **Rank:** {rank} | **Total Stars:** {stars}\n**URL:** https://github.com/{name}\n\n{readme_txt}", encoding="utf-8")
                 
+                # Ensure feeder directory exists before saving
+                feeder.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(archive, feeder / readme_fname)
                 print(f"   [+] Queued: {readme_fname} ({stars} stars)")
 
