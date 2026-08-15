@@ -341,5 +341,68 @@
         "highest_rank_achieved": 20,
         "total_stars": "11,988",
         "url": "https://github.com/tt-a1i/archify"
+    },
+    "citrolabs/ego-lite": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "10,377",
+        "url": "https://github.com/citrolabs/ego-lite"
+    },
+    "github/spec-kit": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "128,530",
+        "url": "https://github.com/github/spec-kit"
+    },
+    "cursor/plugins": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "2,812",
+        "url": "https://github.com/cursor/plugins"
+    },
+    "deepseek-ai/awesome-deepseek-agent": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 12,
+        "total_stars": "5,711",
+        "url": "https://github.com/deepseek-ai/awesome-deepseek-agent"
+    },
+    "rustdesk/rustdesk": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 14,
+        "total_stars": "120,640",
+        "url": "https://github.com/rustdesk/rustdesk"
+    },
+    "OpenCut-app/OpenCut": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "83,173",
+        "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    "ToolJet/ToolJet": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 17,
+        "total_stars": "39,086",
+        "url": "https://github.com/ToolJet/ToolJet"
+    },
+    "denoland/celld": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 4,
+        "total_stars": "3,558",
+        "url": "https://github.com/denoland/celld"
+    },
+    "opengeos/GeoLibre": {
+        "discovered_on": "2026-08-15",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 20,
+        "total_stars": "6,037",
+        "url": "https://github.com/opengeos/GeoLibre"
     }
 }
