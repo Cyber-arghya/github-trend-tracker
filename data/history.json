@@ -404,5 +404,54 @@
         "highest_rank_achieved": 20,
         "total_stars": "6,037",
         "url": "https://github.com/opengeos/GeoLibre"
+    },
+    "cordiverse/cordis": {
+        "discovered_on": "2026-08-16",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 1,
+        "total_stars": "4,079",
+        "url": "https://github.com/cordiverse/cordis"
+    },
+    "public-apis/public-apis": {
+        "discovered_on": "2026-08-16",
+        "category_lang": "Python",
+        "highest_rank_achieved": 6,
+        "total_stars": "460,204",
+        "url": "https://github.com/public-apis/public-apis"
+    },
+    "MakazhanAlpamys/Soup": {
+        "discovered_on": "2026-08-16",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "1,677",
+        "url": "https://github.com/MakazhanAlpamys/Soup"
+    },
+    "HKUDS/CLI-Anything": {
+        "discovered_on": "2026-08-16",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "47,365",
+        "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    "google-deepmind/weathernext": {
+        "discovered_on": "2026-08-16",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "7,523",
+        "url": "https://github.com/google-deepmind/weathernext"
+    },
+    "paperclipai/paperclip": {
+        "discovered_on": "2026-08-16",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 16,
+        "total_stars": "78,319",
+        "url": "https://github.com/paperclipai/paperclip"
+    },
+    "lyogavin/airllm": {
+        "discovered_on": "2026-08-16",
+        "category_lang": "Jupyter Notebook",
+        "highest_rank_achieved": 16,
+        "total_stars": "31,221",
+        "url": "https://github.com/lyogavin/airllm"
     }
 }
