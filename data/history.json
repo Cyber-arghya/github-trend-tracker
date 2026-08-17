@@ -453,5 +453,19 @@
         "highest_rank_achieved": 16,
         "total_stars": "31,221",
         "url": "https://github.com/lyogavin/airllm"
+    },
+    "basecamp/omarchy": {
+        "discovered_on": "2026-08-17",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 2,
+        "total_stars": "25,409",
+        "url": "https://github.com/basecamp/omarchy"
+    },
+    "bojieli/ai-agent-book": {
+        "discovered_on": "2026-08-17",
+        "category_lang": "Python",
+        "highest_rank_achieved": 1,
+        "total_stars": "37,913",
+        "url": "https://github.com/bojieli/ai-agent-book"
     }
 }
