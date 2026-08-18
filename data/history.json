@@ -467,5 +467,89 @@
         "highest_rank_achieved": 1,
         "total_stars": "37,913",
         "url": "https://github.com/bojieli/ai-agent-book"
+    },
+    "harry0703/MoneyPrinterTurbo": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Python",
+        "highest_rank_achieved": 1,
+        "total_stars": "106,102",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    "usestrix/strix": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Python",
+        "highest_rank_achieved": 2,
+        "total_stars": "54,217",
+        "url": "https://github.com/usestrix/strix"
+    },
+    "nautechsystems/nautilus_trader": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 3,
+        "total_stars": "25,933",
+        "url": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    "akitaonrails/ai-memory": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 4,
+        "total_stars": "2,083",
+        "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    "mukul975/Anthropic-Cybersecurity-Skills": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "28,455",
+        "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    "AlexsJones/llmfit": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 6,
+        "total_stars": "32,306",
+        "url": "https://github.com/AlexsJones/llmfit"
+    },
+    "santifer/career-ops": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 7,
+        "total_stars": "64,678",
+        "url": "https://github.com/santifer/career-ops"
+    },
+    "jundot/omlx": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "19,003",
+        "url": "https://github.com/jundot/omlx"
+    },
+    "immich-app/immich": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "111,173",
+        "url": "https://github.com/immich-app/immich"
+    },
+    "agalwood/Motrix": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "53,091",
+        "url": "https://github.com/agalwood/Motrix"
+    },
+    "ayghri/i-have-adhd": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Python",
+        "highest_rank_achieved": 1,
+        "total_stars": "21,504",
+        "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    "microsoft/AI-For-Beginners": {
+        "discovered_on": "2026-08-18",
+        "category_lang": "Jupyter Notebook",
+        "highest_rank_achieved": 9,
+        "total_stars": "65,203",
+        "url": "https://github.com/microsoft/AI-For-Beginners"
     }
 }
