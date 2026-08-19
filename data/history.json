@@ -551,5 +551,61 @@
         "highest_rank_achieved": 9,
         "total_stars": "65,203",
         "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    "chaitanyagiri/munder-difflin": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 2,
+        "total_stars": "2,047",
+        "url": "https://github.com/chaitanyagiri/munder-difflin"
+    },
+    "volcengine/OpenViking": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "Python",
+        "highest_rank_achieved": 4,
+        "total_stars": "29,401",
+        "url": "https://github.com/volcengine/OpenViking"
+    },
+    "NawfalMotii79/PLFM_RADAR": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "PLSQL",
+        "highest_rank_achieved": 9,
+        "total_stars": "24,318",
+        "url": "https://github.com/NawfalMotii79/PLFM_RADAR"
+    },
+    "genlayerlabs/genlayer-project-boilerplate": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "15,958",
+        "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate"
+    },
+    "superradcompany/microsandbox": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 15,
+        "total_stars": "7,674",
+        "url": "https://github.com/superradcompany/microsandbox"
+    },
+    "permissionlesstech/bitchat": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 2,
+        "total_stars": "35,556",
+        "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    "oblien/openship": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 17,
+        "total_stars": "11,029",
+        "url": "https://github.com/oblien/openship"
+    },
+    "UditAkhourii/adhd": {
+        "discovered_on": "2026-08-19",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 18,
+        "total_stars": "3,703",
+        "url": "https://github.com/UditAkhourii/adhd"
     }
 }
