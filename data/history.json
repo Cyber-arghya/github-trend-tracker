@@ -607,5 +607,40 @@
         "highest_rank_achieved": 18,
         "total_stars": "3,703",
         "url": "https://github.com/UditAkhourii/adhd"
+    },
+    "obra/superpowers": {
+        "discovered_on": "2026-08-20",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 7,
+        "total_stars": "274,286",
+        "url": "https://github.com/obra/superpowers"
+    },
+    "amadeusprotocol/node": {
+        "discovered_on": "2026-08-20",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 11,
+        "total_stars": "4,565",
+        "url": "https://github.com/amadeusprotocol/node"
+    },
+    "marceloprates/prettymaps": {
+        "discovered_on": "2026-08-20",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "13,136",
+        "url": "https://github.com/marceloprates/prettymaps"
+    },
+    "CodebuffAI/freebuff": {
+        "discovered_on": "2026-08-20",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "10,109",
+        "url": "https://github.com/CodebuffAI/freebuff"
+    },
+    "block/buzz": {
+        "discovered_on": "2026-08-20",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 1,
+        "total_stars": "28,675",
+        "url": "https://github.com/block/buzz"
     }
 }
