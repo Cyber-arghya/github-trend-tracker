@@ -642,5 +642,68 @@
         "highest_rank_achieved": 1,
         "total_stars": "28,675",
         "url": "https://github.com/block/buzz"
+    },
+    "modular/modular": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Mojo",
+        "highest_rank_achieved": 1,
+        "total_stars": "27,971",
+        "url": "https://github.com/modular/modular"
+    },
+    "AprilNEA/OpenLogi": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 3,
+        "total_stars": "11,918",
+        "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    "agent-substrate/substrate": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Go",
+        "highest_rank_achieved": 9,
+        "total_stars": "1,401",
+        "url": "https://github.com/agent-substrate/substrate"
+    },
+    "PostHog/posthog": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 11,
+        "total_stars": "38,014",
+        "url": "https://github.com/PostHog/posthog"
+    },
+    "mahlernim/google-timeline-visualizer": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Kotlin",
+        "highest_rank_achieved": 12,
+        "total_stars": "1,594",
+        "url": "https://github.com/mahlernim/google-timeline-visualizer"
+    },
+    "JuliusBrussee/caveman": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Go",
+        "highest_rank_achieved": 14,
+        "total_stars": "99,654",
+        "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    "makeplane/plane": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "56,520",
+        "url": "https://github.com/makeplane/plane"
+    },
+    "Tencent/AI-Infra-Guard": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "4,981",
+        "url": "https://github.com/Tencent/AI-Infra-Guard"
+    },
+    "RyanCodrai/turbovec": {
+        "discovered_on": "2026-08-21",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 17,
+        "total_stars": "15,961",
+        "url": "https://github.com/RyanCodrai/turbovec"
     }
 }
