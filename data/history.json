@@ -705,5 +705,61 @@
         "highest_rank_achieved": 17,
         "total_stars": "15,961",
         "url": "https://github.com/RyanCodrai/turbovec"
+    },
+    "microsoft/TypeScript": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "Go",
+        "highest_rank_achieved": 6,
+        "total_stars": "110,382",
+        "url": "https://github.com/microsoft/TypeScript"
+    },
+    "affaan-m/ECC": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "241,804",
+        "url": "https://github.com/affaan-m/ECC"
+    },
+    "TryGhost/Ghost": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "54,893",
+        "url": "https://github.com/TryGhost/Ghost"
+    },
+    "ruvnet/ruflo": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 13,
+        "total_stars": "68,650",
+        "url": "https://github.com/ruvnet/ruflo"
+    },
+    "apache/maka": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "2,024",
+        "url": "https://github.com/apache/maka"
+    },
+    "protocolbuffers/protobuf": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "C++",
+        "highest_rank_achieved": 15,
+        "total_stars": "71,771",
+        "url": "https://github.com/protocolbuffers/protobuf"
+    },
+    "elder-plinius/OBLITERATUS": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "7,794",
+        "url": "https://github.com/elder-plinius/OBLITERATUS"
+    },
+    "microsoft/onnxruntime": {
+        "discovered_on": "2026-08-22",
+        "category_lang": "C++",
+        "highest_rank_achieved": 17,
+        "total_stars": "21,456",
+        "url": "https://github.com/microsoft/onnxruntime"
     }
 }
