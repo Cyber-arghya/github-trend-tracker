@@ -761,5 +761,54 @@
         "highest_rank_achieved": 17,
         "total_stars": "21,456",
         "url": "https://github.com/microsoft/onnxruntime"
+    },
+    "openai/codex": {
+        "discovered_on": "2026-08-23",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 1,
+        "total_stars": "113,458",
+        "url": "https://github.com/openai/codex"
+    },
+    "Wei-Shaw/sub2api": {
+        "discovered_on": "2026-08-23",
+        "category_lang": "Go",
+        "highest_rank_achieved": 5,
+        "total_stars": "38,795",
+        "url": "https://github.com/Wei-Shaw/sub2api"
+    },
+    "n8n-io/n8n": {
+        "discovered_on": "2026-08-23",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 7,
+        "total_stars": "201,832",
+        "url": "https://github.com/n8n-io/n8n"
+    },
+    "anthropics/claude-code": {
+        "discovered_on": "2026-08-23",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "142,548",
+        "url": "https://github.com/anthropics/claude-code"
+    },
+    "multica-ai/andrej-karpathy-skills": {
+        "discovered_on": "2026-08-23",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 11,
+        "total_stars": "205,320",
+        "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    "ripienaar/free-for-dev": {
+        "discovered_on": "2026-08-23",
+        "category_lang": "HTML",
+        "highest_rank_achieved": 13,
+        "total_stars": "133,926",
+        "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    "eneskirca/nodeterm": {
+        "discovered_on": "2026-08-23",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "1,052",
+        "url": "https://github.com/eneskirca/nodeterm"
     }
 }
