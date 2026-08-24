@@ -810,5 +810,54 @@
         "highest_rank_achieved": 15,
         "total_stars": "1,052",
         "url": "https://github.com/eneskirca/nodeterm"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+        "discovered_on": "2026-08-24",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 2,
+        "total_stars": "12,802",
+        "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    "Alishahryar1/free-claude-code": {
+        "discovered_on": "2026-08-24",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "48,000",
+        "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    "tinyhumansai/openhuman": {
+        "discovered_on": "2026-08-24",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 9,
+        "total_stars": "36,776",
+        "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    "VoltAgent/awesome-agent-skills": {
+        "discovered_on": "2026-08-24",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 12,
+        "total_stars": "31,316",
+        "url": "https://github.com/VoltAgent/awesome-agent-skills"
+    },
+    "dani-garcia/vaultwarden": {
+        "discovered_on": "2026-08-24",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 14,
+        "total_stars": "65,967",
+        "url": "https://github.com/dani-garcia/vaultwarden"
+    },
+    "anthropics/claude-plugins-community": {
+        "discovered_on": "2026-08-24",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "977",
+        "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    "NousResearch/hermes-agent": {
+        "discovered_on": "2026-08-24",
+        "category_lang": "Python",
+        "highest_rank_achieved": 18,
+        "total_stars": "235,021",
+        "url": "https://github.com/NousResearch/hermes-agent"
     }
 }
