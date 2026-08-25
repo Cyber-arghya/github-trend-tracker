@@ -859,5 +859,40 @@
         "highest_rank_achieved": 18,
         "total_stars": "235,021",
         "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "MadsLorentzen/ai-job-search": {
+        "discovered_on": "2026-08-25",
+        "category_lang": "Python",
+        "highest_rank_achieved": 3,
+        "total_stars": "34,096",
+        "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    "openclaw/openclaw": {
+        "discovered_on": "2026-08-25",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "387,441",
+        "url": "https://github.com/openclaw/openclaw"
+    },
+    "AgriciDaniel/claude-obsidian": {
+        "discovered_on": "2026-08-25",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "11,926",
+        "url": "https://github.com/AgriciDaniel/claude-obsidian"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+        "discovered_on": "2026-08-25",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "48,304",
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    "tashfeenahmed/freellmapi": {
+        "discovered_on": "2026-08-25",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "19,792",
+        "url": "https://github.com/tashfeenahmed/freellmapi"
     }
 }
