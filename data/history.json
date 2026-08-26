@@ -894,5 +894,47 @@
         "highest_rank_achieved": 15,
         "total_stars": "19,792",
         "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    "TauricResearch/TradingAgents": {
+        "discovered_on": "2026-08-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "100,280",
+        "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+        "discovered_on": "2026-08-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 10,
+        "total_stars": "134,243",
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    "marin-community/marin": {
+        "discovered_on": "2026-08-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "2,120",
+        "url": "https://github.com/marin-community/marin"
+    },
+    "DietrichGebert/ponytail": {
+        "discovered_on": "2026-08-26",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "111,076",
+        "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    "anthropics/claude-plugins-official": {
+        "discovered_on": "2026-08-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "34,101",
+        "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    "asciimoo/hister": {
+        "discovered_on": "2026-08-26",
+        "category_lang": "Go",
+        "highest_rank_achieved": 16,
+        "total_stars": "2,791",
+        "url": "https://github.com/asciimoo/hister"
     }
 }
