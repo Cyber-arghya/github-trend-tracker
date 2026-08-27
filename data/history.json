@@ -936,5 +936,33 @@
         "highest_rank_achieved": 16,
         "total_stars": "2,791",
         "url": "https://github.com/asciimoo/hister"
+    },
+    "ConardLi/garden-skills": {
+        "discovered_on": "2026-08-27",
+        "category_lang": "CSS",
+        "highest_rank_achieved": 12,
+        "total_stars": "11,092",
+        "url": "https://github.com/ConardLi/garden-skills"
+    },
+    "browser-use/browser-use": {
+        "discovered_on": "2026-08-27",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "111,268",
+        "url": "https://github.com/browser-use/browser-use"
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+        "discovered_on": "2026-08-27",
+        "category_lang": "Python",
+        "highest_rank_achieved": 14,
+        "total_stars": "34,927",
+        "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    "bookorbit/bookorbit": {
+        "discovered_on": "2026-08-27",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 16,
+        "total_stars": "3,316",
+        "url": "https://github.com/bookorbit/bookorbit"
     }
 }
