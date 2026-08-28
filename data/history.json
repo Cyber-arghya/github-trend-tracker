@@ -964,5 +964,75 @@
         "highest_rank_achieved": 16,
         "total_stars": "3,316",
         "url": "https://github.com/bookorbit/bookorbit"
+    },
+    "bilawalsidhu/gods-eye-view": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 1,
+        "total_stars": "9,788",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    "zedeus/nitter": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "Nim",
+        "highest_rank_achieved": 2,
+        "total_stars": "14,035",
+        "url": "https://github.com/zedeus/nitter"
+    },
+    "JetBrains/go-modern-guidelines": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "Go",
+        "highest_rank_achieved": 5,
+        "total_stars": "2,406",
+        "url": "https://github.com/JetBrains/go-modern-guidelines"
+    },
+    "calesthio/OpenMontage": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "52,843",
+        "url": "https://github.com/calesthio/OpenMontage"
+    },
+    "thedotmack/claude-mem": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "92,444",
+        "url": "https://github.com/thedotmack/claude-mem"
+    },
+    "google/googletest": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "C++",
+        "highest_rank_achieved": 13,
+        "total_stars": "39,106",
+        "url": "https://github.com/google/googletest"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "73,765",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    "actions/checkout": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 17,
+        "total_stars": "8,770",
+        "url": "https://github.com/actions/checkout"
+    },
+    "securo-finance/securo": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "Python",
+        "highest_rank_achieved": 10,
+        "total_stars": "2,477",
+        "url": "https://github.com/securo-finance/securo"
+    },
+    "unclebob/swarm-forge": {
+        "discovered_on": "2026-08-28",
+        "category_lang": "Clojure",
+        "highest_rank_achieved": 22,
+        "total_stars": "2,953",
+        "url": "https://github.com/unclebob/swarm-forge"
     }
 }
