@@ -146,5 +146,13 @@
     "22_monthly_swarm-forge.md",
     "13_daily_googletest.md",
     "5_daily_go-modern-guidelines.md",
-    "17_daily_checkout.md"
+    "17_daily_checkout.md",
+    "13_daily_typephp.md",
+    "5_daily_GitNexus.md",
+    "20_daily_agents.md",
+    "12_daily_ghidra.md",
+    "9_monthly_kaneo.md",
+    "11_daily_tailcat.md",
+    "16_daily_chrome-devtools-mcp.md",
+    "8_daily_screenshot-to-code.md"
 ]

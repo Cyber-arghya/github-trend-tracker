@@ -1034,5 +1034,61 @@
         "highest_rank_achieved": 22,
         "total_stars": "2,953",
         "url": "https://github.com/unclebob/swarm-forge"
+    },
+    "abhigyanpatwari/GitNexus": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 5,
+        "total_stars": "46,217",
+        "url": "https://github.com/abhigyanpatwari/GitNexus"
+    },
+    "abi/screenshot-to-code": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "75,674",
+        "url": "https://github.com/abi/screenshot-to-code"
+    },
+    "tailscale/tailcat": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "Go",
+        "highest_rank_achieved": 11,
+        "total_stars": "2,941",
+        "url": "https://github.com/tailscale/tailcat"
+    },
+    "NationalSecurityAgency/ghidra": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "Java",
+        "highest_rank_achieved": 12,
+        "total_stars": "73,407",
+        "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    "swoole/typephp": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "PHP",
+        "highest_rank_achieved": 13,
+        "total_stars": "844",
+        "url": "https://github.com/swoole/typephp"
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 16,
+        "total_stars": "50,021",
+        "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    "livekit/agents": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "Python",
+        "highest_rank_achieved": 20,
+        "total_stars": "13,401",
+        "url": "https://github.com/livekit/agents"
+    },
+    "usekaneo/kaneo": {
+        "discovered_on": "2026-08-29",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "8,645",
+        "url": "https://github.com/usekaneo/kaneo"
     }
 }
