@@ -1139,5 +1139,75 @@
         "highest_rank_achieved": 3,
         "total_stars": "34,928",
         "url": "https://github.com/omacom/omarchy"
+    },
+    "Lakr233/vphone-cli": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 3,
+        "total_stars": "9,762",
+        "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    "unclecode/crawl4ai": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Python",
+        "highest_rank_achieved": 6,
+        "total_stars": "80,351",
+        "url": "https://github.com/unclecode/crawl4ai"
+    },
+    "mvanhorn/last30days-skill": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "60,597",
+        "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    "majd/ipatool": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Go",
+        "highest_rank_achieved": 8,
+        "total_stars": "10,286",
+        "url": "https://github.com/majd/ipatool"
+    },
+    "punkpeye/awesome-mcp-servers": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 9,
+        "total_stars": "93,428",
+        "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    "checkstyle/checkstyle": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Java",
+        "highest_rank_achieved": 10,
+        "total_stars": "9,239",
+        "url": "https://github.com/checkstyle/checkstyle"
+    },
+    "pollen-robotics/microduck_rl": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "871",
+        "url": "https://github.com/pollen-robotics/microduck_rl"
+    },
+    "handsomestWei/patent-disclosure-skill": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "5,832",
+        "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+    },
+    "corsairdev/corsair": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "11,020",
+        "url": "https://github.com/corsairdev/corsair"
+    },
+    "colinhacks/zod": {
+        "discovered_on": "2026-08-31",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 16,
+        "total_stars": "43,673",
+        "url": "https://github.com/colinhacks/zod"
     }
 }
