@@ -1209,5 +1209,19 @@
         "highest_rank_achieved": 16,
         "total_stars": "43,673",
         "url": "https://github.com/colinhacks/zod"
+    },
+    "k1tbyte/Wand-Enhancer": {
+        "discovered_on": "2026-09-01",
+        "category_lang": "C#",
+        "highest_rank_achieved": 4,
+        "total_stars": "23,453",
+        "url": "https://github.com/k1tbyte/Wand-Enhancer"
+    },
+    "jingyaogong/minimind": {
+        "discovered_on": "2026-09-01",
+        "category_lang": "Python",
+        "highest_rank_achieved": 6,
+        "total_stars": "56,339",
+        "url": "https://github.com/jingyaogong/minimind"
     }
 }
