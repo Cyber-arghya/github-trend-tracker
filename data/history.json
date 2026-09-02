@@ -1223,5 +1223,61 @@
         "highest_rank_achieved": 6,
         "total_stars": "56,339",
         "url": "https://github.com/jingyaogong/minimind"
+    },
+    "Gitlawb/openclaude": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 1,
+        "total_stars": "31,429",
+        "url": "https://github.com/Gitlawb/openclaude"
+    },
+    "Imbad0202/academic-research-skills": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 2,
+        "total_stars": "45,032",
+        "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    "iv-org/invidious": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "Crystal",
+        "highest_rank_achieved": 4,
+        "total_stars": "23,816",
+        "url": "https://github.com/iv-org/invidious"
+    },
+    "browser-use/video-use": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "23,075",
+        "url": "https://github.com/browser-use/video-use"
+    },
+    "VoltAgent/awesome-design-md": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 11,
+        "total_stars": "112,968",
+        "url": "https://github.com/VoltAgent/awesome-design-md"
+    },
+    "averygan/reclip": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "HTML",
+        "highest_rank_achieved": 12,
+        "total_stars": "7,783",
+        "url": "https://github.com/averygan/reclip"
+    },
+    "donnemartin/system-design-primer": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "367,558",
+        "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    "youssofal/MTPLX": {
+        "discovered_on": "2026-09-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 20,
+        "total_stars": "1,900",
+        "url": "https://github.com/youssofal/MTPLX"
     }
 }
