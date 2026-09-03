@@ -1279,5 +1279,68 @@
         "highest_rank_achieved": 20,
         "total_stars": "1,900",
         "url": "https://github.com/youssofal/MTPLX"
+    },
+    "fmtlib/fmt": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "C++",
+        "highest_rank_achieved": 1,
+        "total_stars": "24,377",
+        "url": "https://github.com/fmtlib/fmt"
+    },
+    "google-research/timesfm": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 2,
+        "total_stars": "30,014",
+        "url": "https://github.com/google-research/timesfm"
+    },
+    "debpalash/VoiceStudio": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 4,
+        "total_stars": "15,017",
+        "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    "sngyai/Sequoia-X": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "6,217",
+        "url": "https://github.com/sngyai/Sequoia-X"
+    },
+    "superlinked/sie": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "3,102",
+        "url": "https://github.com/superlinked/sie"
+    },
+    "pacifio/atlas": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 9,
+        "total_stars": "2,971",
+        "url": "https://github.com/pacifio/atlas"
+    },
+    "zyronon/TypeWords": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "Vue",
+        "highest_rank_achieved": 10,
+        "total_stars": "9,404",
+        "url": "https://github.com/zyronon/TypeWords"
+    },
+    "vercel-labs/portless": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "11,841",
+        "url": "https://github.com/vercel-labs/portless"
+    },
+    "blader/humanizer": {
+        "discovered_on": "2026-09-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "40,571",
+        "url": "https://github.com/blader/humanizer"
     }
 }
