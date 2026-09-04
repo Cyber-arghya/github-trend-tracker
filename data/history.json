@@ -1342,5 +1342,47 @@
         "highest_rank_achieved": 15,
         "total_stars": "40,571",
         "url": "https://github.com/blader/humanizer"
+    },
+    "bannedbook/fanqiang": {
+        "discovered_on": "2026-09-04",
+        "category_lang": "Kotlin",
+        "highest_rank_achieved": 11,
+        "total_stars": "52,342",
+        "url": "https://github.com/bannedbook/fanqiang"
+    },
+    "ByteByteGoHq/system-design-101": {
+        "discovered_on": "2026-09-04",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 13,
+        "total_stars": "88,434",
+        "url": "https://github.com/ByteByteGoHq/system-design-101"
+    },
+    "magnitudedev/magnitude": {
+        "discovered_on": "2026-09-04",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "2,014",
+        "url": "https://github.com/magnitudedev/magnitude"
+    },
+    "f/prompts.chat": {
+        "discovered_on": "2026-09-04",
+        "category_lang": "HTML",
+        "highest_rank_achieved": 18,
+        "total_stars": "169,076",
+        "url": "https://github.com/f/prompts.chat"
+    },
+    "cloudflare/cloudflare-os": {
+        "discovered_on": "2026-09-04",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 4,
+        "total_stars": "9,582",
+        "url": "https://github.com/cloudflare/cloudflare-os"
+    },
+    "xai-org/x-algorithm": {
+        "discovered_on": "2026-09-04",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 11,
+        "total_stars": "32,598",
+        "url": "https://github.com/xai-org/x-algorithm"
     }
 }
