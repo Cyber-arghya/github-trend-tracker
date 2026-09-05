@@ -1384,5 +1384,47 @@
         "highest_rank_achieved": 11,
         "total_stars": "32,598",
         "url": "https://github.com/xai-org/x-algorithm"
+    },
+    "bikini/exploitarium": {
+        "discovered_on": "2026-09-05",
+        "category_lang": "Python",
+        "highest_rank_achieved": 10,
+        "total_stars": "4,543",
+        "url": "https://github.com/bikini/exploitarium"
+    },
+    "radixark/miles": {
+        "discovered_on": "2026-09-05",
+        "category_lang": "Python",
+        "highest_rank_achieved": 14,
+        "total_stars": "2,579",
+        "url": "https://github.com/radixark/miles"
+    },
+    "anomalyco/opencode": {
+        "discovered_on": "2026-09-05",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "204,195",
+        "url": "https://github.com/anomalyco/opencode"
+    },
+    "clshortfuse/renodx": {
+        "discovered_on": "2026-09-05",
+        "category_lang": "HLSL",
+        "highest_rank_achieved": 16,
+        "total_stars": "3,552",
+        "url": "https://github.com/clshortfuse/renodx"
+    },
+    "OpenWhispr/openwhispr": {
+        "discovered_on": "2026-09-05",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 20,
+        "total_stars": "6,801",
+        "url": "https://github.com/OpenWhispr/openwhispr"
+    },
+    "vorssaint/vorssaint-utils": {
+        "discovered_on": "2026-09-05",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 17,
+        "total_stars": "15,294",
+        "url": "https://github.com/vorssaint/vorssaint-utils"
     }
 }
