@@ -1426,5 +1426,33 @@
         "highest_rank_achieved": 17,
         "total_stars": "15,294",
         "url": "https://github.com/vorssaint/vorssaint-utils"
+    },
+    "humanlayer/skills": {
+        "discovered_on": "2026-09-06",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 10,
+        "total_stars": "2,769",
+        "url": "https://github.com/humanlayer/skills"
+    },
+    "BraveOPotato/FckSignups": {
+        "discovered_on": "2026-09-06",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "2,936",
+        "url": "https://github.com/BraveOPotato/FckSignups"
+    },
+    "WorldFlowAI/everything-claude-code": {
+        "discovered_on": "2026-09-06",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 13,
+        "total_stars": "2,388",
+        "url": "https://github.com/WorldFlowAI/everything-claude-code"
+    },
+    "nvm-sh/nvm": {
+        "discovered_on": "2026-09-06",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 16,
+        "total_stars": "94,936",
+        "url": "https://github.com/nvm-sh/nvm"
     }
 }
