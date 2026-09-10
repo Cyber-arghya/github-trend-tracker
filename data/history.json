@@ -1601,5 +1601,47 @@
         "highest_rank_achieved": 21,
         "total_stars": "1,297",
         "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-DSpark-2x-DGX-Spark"
+    },
+    "Tencent/teamai-cli": {
+        "discovered_on": "2026-09-10",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 2,
+        "total_stars": "3,175",
+        "url": "https://github.com/Tencent/teamai-cli"
+    },
+    "earthtojake/text-to-cad": {
+        "discovered_on": "2026-09-10",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "15,125",
+        "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    "liquidslr/system-design-notes": {
+        "discovered_on": "2026-09-10",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 8,
+        "total_stars": "18,128",
+        "url": "https://github.com/liquidslr/system-design-notes"
+    },
+    "vastsa/PI-Desktop": {
+        "discovered_on": "2026-09-10",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "1,788",
+        "url": "https://github.com/vastsa/PI-Desktop"
+    },
+    "petergyang/no-ai-slop": {
+        "discovered_on": "2026-09-10",
+        "category_lang": "Python",
+        "highest_rank_achieved": 20,
+        "total_stars": "7,893",
+        "url": "https://github.com/petergyang/no-ai-slop"
+    },
+    "titanwings/distilly": {
+        "discovered_on": "2026-09-10",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 23,
+        "total_stars": "24,541",
+        "url": "https://github.com/titanwings/distilly"
     }
 }
