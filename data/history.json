@@ -1643,5 +1643,40 @@
         "highest_rank_achieved": 23,
         "total_stars": "24,541",
         "url": "https://github.com/titanwings/distilly"
+    },
+    "alsk1992/CloddsBot": {
+        "discovered_on": "2026-09-11",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 4,
+        "total_stars": "1,750",
+        "url": "https://github.com/alsk1992/CloddsBot"
+    },
+    "armory3d/armorpaint": {
+        "discovered_on": "2026-09-11",
+        "category_lang": "C",
+        "highest_rank_achieved": 10,
+        "total_stars": "4,475",
+        "url": "https://github.com/armory3d/armorpaint"
+    },
+    "JustVugg/colibri": {
+        "discovered_on": "2026-09-11",
+        "category_lang": "C",
+        "highest_rank_achieved": 12,
+        "total_stars": "27,520",
+        "url": "https://github.com/JustVugg/colibri"
+    },
+    "nashsu/llm_wiki": {
+        "discovered_on": "2026-09-11",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "18,210",
+        "url": "https://github.com/nashsu/llm_wiki"
+    },
+    "vercel-labs/skills": {
+        "discovered_on": "2026-09-11",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 15,
+        "total_stars": "31,228",
+        "url": "https://github.com/vercel-labs/skills"
     }
 }
