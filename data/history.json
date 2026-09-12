@@ -1678,5 +1678,68 @@
         "highest_rank_achieved": 15,
         "total_stars": "31,228",
         "url": "https://github.com/vercel-labs/skills"
+    },
+    "nab138/iloader": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 3,
+        "total_stars": "2,935",
+        "url": "https://github.com/nab138/iloader"
+    },
+    "melgarafael/DeskcommCRM": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 4,
+        "total_stars": "1,413",
+        "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    "Sonarr/Sonarr": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "C#",
+        "highest_rank_achieved": 10,
+        "total_stars": "15,759",
+        "url": "https://github.com/Sonarr/Sonarr"
+    },
+    "jihe520/MathModelAgent": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "Python",
+        "highest_rank_achieved": 11,
+        "total_stars": "4,896",
+        "url": "https://github.com/jihe520/MathModelAgent"
+    },
+    "p1neappleXpress/OpenFlux": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "Go",
+        "highest_rank_achieved": 12,
+        "total_stars": "1,181",
+        "url": "https://github.com/p1neappleXpress/OpenFlux"
+    },
+    "jordan-gibbs/hyperresearch": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "2,692",
+        "url": "https://github.com/jordan-gibbs/hyperresearch"
+    },
+    "alphaXiv/OpenResearch": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 14,
+        "total_stars": "1,344",
+        "url": "https://github.com/alphaXiv/OpenResearch"
+    },
+    "Tencent/WeKnora": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "Go",
+        "highest_rank_achieved": 21,
+        "total_stars": "22,400",
+        "url": "https://github.com/Tencent/WeKnora"
+    },
+    "jakubkrehel/skills": {
+        "discovered_on": "2026-09-12",
+        "category_lang": "Markdown",
+        "highest_rank_achieved": 22,
+        "total_stars": "6,312",
+        "url": "https://github.com/jakubkrehel/skills"
     }
 }
