@@ -1741,5 +1741,54 @@
         "highest_rank_achieved": 22,
         "total_stars": "6,312",
         "url": "https://github.com/jakubkrehel/skills"
+    },
+    "asgeirtj/system_prompts_leaks": {
+        "discovered_on": "2026-09-13",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 3,
+        "total_stars": "65,505",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    "Flowseal/zapret-discord-youtube": {
+        "discovered_on": "2026-09-13",
+        "category_lang": "Batchfile",
+        "highest_rank_achieved": 5,
+        "total_stars": "33,218",
+        "url": "https://github.com/Flowseal/zapret-discord-youtube"
+    },
+    "yuliskov/SmartTube": {
+        "discovered_on": "2026-09-13",
+        "category_lang": "Java",
+        "highest_rank_achieved": 9,
+        "total_stars": "33,239",
+        "url": "https://github.com/yuliskov/SmartTube"
+    },
+    "SnailSploit/Claude-Red": {
+        "discovered_on": "2026-09-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "3,662",
+        "url": "https://github.com/SnailSploit/Claude-Red"
+    },
+    "multimodal-art-projection/YuE": {
+        "discovered_on": "2026-09-13",
+        "category_lang": "Python",
+        "highest_rank_achieved": 14,
+        "total_stars": "7,348",
+        "url": "https://github.com/multimodal-art-projection/YuE"
+    },
+    "max-sixty/worktrunk": {
+        "discovered_on": "2026-09-13",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 15,
+        "total_stars": "7,288",
+        "url": "https://github.com/max-sixty/worktrunk"
+    },
+    "vxcontrol/pentagi": {
+        "discovered_on": "2026-09-13",
+        "category_lang": "Go",
+        "highest_rank_achieved": 16,
+        "total_stars": "23,514",
+        "url": "https://github.com/vxcontrol/pentagi"
     }
 }
