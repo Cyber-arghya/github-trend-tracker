@@ -1790,5 +1790,61 @@
         "highest_rank_achieved": 16,
         "total_stars": "23,514",
         "url": "https://github.com/vxcontrol/pentagi"
+    },
+    "ever-co/ever-gauzy": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 2,
+        "total_stars": "5,275",
+        "url": "https://github.com/ever-co/ever-gauzy"
+    },
+    "tech-leads-club/agent-skills": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 4,
+        "total_stars": "5,740",
+        "url": "https://github.com/tech-leads-club/agent-skills"
+    },
+    "alibaba/open-code-review": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "Go",
+        "highest_rank_achieved": 14,
+        "total_stars": "23,717",
+        "url": "https://github.com/alibaba/open-code-review"
+    },
+    "tonhowtf/omniget": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 16,
+        "total_stars": "11,861",
+        "url": "https://github.com/tonhowtf/omniget"
+    },
+    "jiji262/douyin-downloader": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "Python",
+        "highest_rank_achieved": 17,
+        "total_stars": "11,489",
+        "url": "https://github.com/jiji262/douyin-downloader"
+    },
+    "Swordfish90/cool-retro-term": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "QML",
+        "highest_rank_achieved": 18,
+        "total_stars": "26,265",
+        "url": "https://github.com/Swordfish90/cool-retro-term"
+    },
+    "huggingface/transformers": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "Python",
+        "highest_rank_achieved": 19,
+        "total_stars": "165,610",
+        "url": "https://github.com/huggingface/transformers"
+    },
+    "kunchenguid/firstmate": {
+        "discovered_on": "2026-09-14",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 23,
+        "total_stars": "5,786",
+        "url": "https://github.com/kunchenguid/firstmate"
     }
 }
