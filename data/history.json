@@ -1846,5 +1846,75 @@
         "highest_rank_achieved": 23,
         "total_stars": "5,786",
         "url": "https://github.com/kunchenguid/firstmate"
+    },
+    "666ghj/MiroFish": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "73,327",
+        "url": "https://github.com/666ghj/MiroFish"
+    },
+    "Panniantong/Agent-Reach": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Python",
+        "highest_rank_achieved": 6,
+        "total_stars": "81,494",
+        "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    "rlaope/oh-my-hermes": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "2,156",
+        "url": "https://github.com/rlaope/oh-my-hermes"
+    },
+    "localsend/localsend": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Dart",
+        "highest_rank_achieved": 9,
+        "total_stars": "91,419",
+        "url": "https://github.com/localsend/localsend"
+    },
+    "ruvnet/RuView": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 12,
+        "total_stars": "93,933",
+        "url": "https://github.com/ruvnet/RuView"
+    },
+    "OpenBMB/VoxCPM": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Python",
+        "highest_rank_achieved": 14,
+        "total_stars": "37,441",
+        "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    "Crosstalk-Solutions/project-nomad": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 17,
+        "total_stars": "36,978",
+        "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    "reconurge/flowsint": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 18,
+        "total_stars": "8,416",
+        "url": "https://github.com/reconurge/flowsint"
+    },
+    "peetzweg/opendisplay": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 19,
+        "total_stars": "3,664",
+        "url": "https://github.com/peetzweg/opendisplay"
+    },
+    "microsoft/data-formulator": {
+        "discovered_on": "2026-09-15",
+        "category_lang": "Python",
+        "highest_rank_achieved": 17,
+        "total_stars": "17,193",
+        "url": "https://github.com/microsoft/data-formulator"
     }
 }
