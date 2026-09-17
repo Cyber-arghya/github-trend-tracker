@@ -1944,5 +1944,68 @@
         "highest_rank_achieved": 21,
         "total_stars": "28,930",
         "url": "https://github.com/decolua/9router"
+    },
+    "cloudflare/security-audit-skill": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 2,
+        "total_stars": "7,665",
+        "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    "abue-ammar/tinycast": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 4,
+        "total_stars": "5,706",
+        "url": "https://github.com/abue-ammar/tinycast"
+    },
+    "jamiepine/voicebox": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 5,
+        "total_stars": "54,487",
+        "url": "https://github.com/jamiepine/voicebox"
+    },
+    "anthropics/knowledge-work-plugins": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "24,337",
+        "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    "ankitects/anki": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 9,
+        "total_stars": "30,933",
+        "url": "https://github.com/ankitects/anki"
+    },
+    "roboflow/supervision": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "50,652",
+        "url": "https://github.com/roboflow/supervision"
+    },
+    "supabase/supabase": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "109,813",
+        "url": "https://github.com/supabase/supabase"
+    },
+    "cline/cline": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 20,
+        "total_stars": "68,425",
+        "url": "https://github.com/cline/cline"
+    },
+    "home-assistant/core": {
+        "discovered_on": "2026-09-17",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "90,586",
+        "url": "https://github.com/home-assistant/core"
     }
 }
