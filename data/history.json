@@ -2007,5 +2007,33 @@
         "highest_rank_achieved": 16,
         "total_stars": "90,586",
         "url": "https://github.com/home-assistant/core"
+    },
+    "Tencent/BrowserSkill": {
+        "discovered_on": "2026-09-18",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 4,
+        "total_stars": "4,401",
+        "url": "https://github.com/Tencent/BrowserSkill"
+    },
+    "cilium/cilium": {
+        "discovered_on": "2026-09-18",
+        "category_lang": "Go",
+        "highest_rank_achieved": 11,
+        "total_stars": "25,293",
+        "url": "https://github.com/cilium/cilium"
+    },
+    "TencentCloud/Octop": {
+        "discovered_on": "2026-09-18",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "3,572",
+        "url": "https://github.com/TencentCloud/Octop"
+    },
+    "coder/coder": {
+        "discovered_on": "2026-09-18",
+        "category_lang": "Go",
+        "highest_rank_achieved": 19,
+        "total_stars": "14,908",
+        "url": "https://github.com/coder/coder"
     }
 }
