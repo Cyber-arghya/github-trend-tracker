@@ -2035,5 +2035,40 @@
         "highest_rank_achieved": 19,
         "total_stars": "14,908",
         "url": "https://github.com/coder/coder"
+    },
+    "Fission-AI/OpenSpec": {
+        "discovered_on": "2026-09-19",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "69,413",
+        "url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    "supermemoryai/supermemory": {
+        "discovered_on": "2026-09-19",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "30,345",
+        "url": "https://github.com/supermemoryai/supermemory"
+    },
+    "tradesdontlie/tradingview-mcp": {
+        "discovered_on": "2026-09-19",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "6,497",
+        "url": "https://github.com/tradesdontlie/tradingview-mcp"
+    },
+    "rustfs/rustfs": {
+        "discovered_on": "2026-09-19",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 13,
+        "total_stars": "33,212",
+        "url": "https://github.com/rustfs/rustfs"
+    },
+    "ahmedkhaleel2004/gitdiagram": {
+        "discovered_on": "2026-09-19",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 16,
+        "total_stars": "16,494",
+        "url": "https://github.com/ahmedkhaleel2004/gitdiagram"
     }
 }
