@@ -2070,5 +2070,61 @@
         "highest_rank_achieved": 16,
         "total_stars": "16,494",
         "url": "https://github.com/ahmedkhaleel2004/gitdiagram"
+    },
+    "trycua/cua": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "HTML",
+        "highest_rank_achieved": 2,
+        "total_stars": "24,578",
+        "url": "https://github.com/trycua/cua"
+    },
+    "Open-Dev-Society/OpenStock": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "16,191",
+        "url": "https://github.com/Open-Dev-Society/OpenStock"
+    },
+    "higgsfield-ai/higgsfield": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "Jupyter Notebook",
+        "highest_rank_achieved": 7,
+        "total_stars": "5,018",
+        "url": "https://github.com/higgsfield-ai/higgsfield"
+    },
+    "docling-project/docling": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "67,163",
+        "url": "https://github.com/docling-project/docling"
+    },
+    "cloudflare/quiche": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 9,
+        "total_stars": "12,056",
+        "url": "https://github.com/cloudflare/quiche"
+    },
+    "ruanyf/weekly": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 11,
+        "total_stars": "103,328",
+        "url": "https://github.com/ruanyf/weekly"
+    },
+    "ZuodaoTech/everyone-can-use-english": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "37,923",
+        "url": "https://github.com/ZuodaoTech/everyone-can-use-english"
+    },
+    "yynxxxxx/Codex-X": {
+        "discovered_on": "2026-09-20",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 15,
+        "total_stars": "3,448",
+        "url": "https://github.com/yynxxxxx/Codex-X"
     }
 }
