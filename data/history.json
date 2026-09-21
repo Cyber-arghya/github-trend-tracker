@@ -2126,5 +2126,40 @@
         "highest_rank_achieved": 15,
         "total_stars": "3,448",
         "url": "https://github.com/yynxxxxx/Codex-X"
+    },
+    "BuilderIO/agent-native": {
+        "discovered_on": "2026-09-21",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 2,
+        "total_stars": "5,342",
+        "url": "https://github.com/BuilderIO/agent-native"
+    },
+    "anthropics/financial-services": {
+        "discovered_on": "2026-09-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "35,452",
+        "url": "https://github.com/anthropics/financial-services"
+    },
+    "paperless-ngx/paperless-ngx": {
+        "discovered_on": "2026-09-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 6,
+        "total_stars": "45,636",
+        "url": "https://github.com/paperless-ngx/paperless-ngx"
+    },
+    "mihail911/modern-software-dev-assignments": {
+        "discovered_on": "2026-09-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "4,616",
+        "url": "https://github.com/mihail911/modern-software-dev-assignments"
+    },
+    "vercel-labs/json-render": {
+        "discovered_on": "2026-09-21",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "17,458",
+        "url": "https://github.com/vercel-labs/json-render"
     }
 }
