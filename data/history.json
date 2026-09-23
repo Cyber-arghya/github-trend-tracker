@@ -2182,5 +2182,33 @@
         "highest_rank_achieved": 2,
         "total_stars": "13,491",
         "url": "https://github.com/FlashML-org/FreeToken"
+    },
+    "dream-num/univer": {
+        "discovered_on": "2026-09-23",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 3,
+        "total_stars": "15,649",
+        "url": "https://github.com/dream-num/univer"
+    },
+    "davila7/claude-code-templates": {
+        "discovered_on": "2026-09-23",
+        "category_lang": "Python",
+        "highest_rank_achieved": 4,
+        "total_stars": "31,188",
+        "url": "https://github.com/davila7/claude-code-templates"
+    },
+    "google/ax": {
+        "discovered_on": "2026-09-23",
+        "category_lang": "Go",
+        "highest_rank_achieved": 5,
+        "total_stars": "7,849",
+        "url": "https://github.com/google/ax"
+    },
+    "superdesigndev/treg": {
+        "discovered_on": "2026-09-23",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "2,299",
+        "url": "https://github.com/superdesigndev/treg"
     }
 }
