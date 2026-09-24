@@ -2210,5 +2210,54 @@
         "highest_rank_achieved": 7,
         "total_stars": "2,299",
         "url": "https://github.com/superdesigndev/treg"
+    },
+    "strands-agents/harness-sdk": {
+        "discovered_on": "2026-09-24",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "7,919",
+        "url": "https://github.com/strands-agents/harness-sdk"
+    },
+    "pbakaus/impeccable": {
+        "discovered_on": "2026-09-24",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "70,429",
+        "url": "https://github.com/pbakaus/impeccable"
+    },
+    "DeusData/codebase-memory-mcp": {
+        "discovered_on": "2026-09-24",
+        "category_lang": "C",
+        "highest_rank_achieved": 14,
+        "total_stars": "44,643",
+        "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    "harry7557558/spirula-studio": {
+        "discovered_on": "2026-09-24",
+        "category_lang": "C++",
+        "highest_rank_achieved": 15,
+        "total_stars": "779",
+        "url": "https://github.com/harry7557558/spirula-studio"
+    },
+    "TNT-Likely/PanWatch": {
+        "discovered_on": "2026-09-24",
+        "category_lang": "Python",
+        "highest_rank_achieved": 17,
+        "total_stars": "1,601",
+        "url": "https://github.com/TNT-Likely/PanWatch"
+    },
+    "LibreChat-AI/LibreChat": {
+        "discovered_on": "2026-09-24",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 13,
+        "total_stars": "44,811",
+        "url": "https://github.com/LibreChat-AI/LibreChat"
+    },
+    "pytorch/pytorch": {
+        "discovered_on": "2026-09-24",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "103,224",
+        "url": "https://github.com/pytorch/pytorch"
     }
 }
