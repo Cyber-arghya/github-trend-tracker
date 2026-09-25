@@ -2259,5 +2259,40 @@
         "highest_rank_achieved": 15,
         "total_stars": "103,224",
         "url": "https://github.com/pytorch/pytorch"
+    },
+    "vectorize-io/hindsight": {
+        "discovered_on": "2026-09-25",
+        "category_lang": "Python",
+        "highest_rank_achieved": 2,
+        "total_stars": "27,977",
+        "url": "https://github.com/vectorize-io/hindsight"
+    },
+    "NVIDIA/Model-Optimizer": {
+        "discovered_on": "2026-09-25",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "4,127",
+        "url": "https://github.com/NVIDIA/Model-Optimizer"
+    },
+    "FxEmbed/FxEmbed": {
+        "discovered_on": "2026-09-25",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "5,386",
+        "url": "https://github.com/FxEmbed/FxEmbed"
+    },
+    "julyx10/lap": {
+        "discovered_on": "2026-09-25",
+        "category_lang": "Vue",
+        "highest_rank_achieved": 12,
+        "total_stars": "2,911",
+        "url": "https://github.com/julyx10/lap"
+    },
+    "leejet/stable-diffusion.cpp": {
+        "discovered_on": "2026-09-25",
+        "category_lang": "C++",
+        "highest_rank_achieved": 14,
+        "total_stars": "7,276",
+        "url": "https://github.com/leejet/stable-diffusion.cpp"
     }
 }
