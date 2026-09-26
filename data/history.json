@@ -2294,5 +2294,47 @@
         "highest_rank_achieved": 14,
         "total_stars": "7,276",
         "url": "https://github.com/leejet/stable-diffusion.cpp"
+    },
+    "androoAGI/starnet": {
+        "discovered_on": "2026-09-26",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "524",
+        "url": "https://github.com/androoAGI/starnet"
+    },
+    "derv82/wifit3": {
+        "discovered_on": "2026-09-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "980",
+        "url": "https://github.com/derv82/wifit3"
+    },
+    "kelseyhightower/kubernetes-the-hard-way": {
+        "discovered_on": "2026-09-26",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 10,
+        "total_stars": "50,146",
+        "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way"
+    },
+    "shy3130/tick-stock-panel": {
+        "discovered_on": "2026-09-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "5,169",
+        "url": "https://github.com/shy3130/tick-stock-panel"
+    },
+    "openbao/openbao": {
+        "discovered_on": "2026-09-26",
+        "category_lang": "Go",
+        "highest_rank_achieved": 16,
+        "total_stars": "7,774",
+        "url": "https://github.com/openbao/openbao"
+    },
+    "odoo/odoo": {
+        "discovered_on": "2026-09-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 20,
+        "total_stars": "54,660",
+        "url": "https://github.com/odoo/odoo"
     }
 }
