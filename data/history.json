@@ -2378,5 +2378,40 @@
         "highest_rank_achieved": 15,
         "total_stars": "142,671",
         "url": "https://github.com/vercel/next.js"
+    },
+    "InfinityLoop1308/PipePipe": {
+        "discovered_on": "2026-09-28",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 5,
+        "total_stars": "6,647",
+        "url": "https://github.com/InfinityLoop1308/PipePipe"
+    },
+    "vercel-labs/scriptc": {
+        "discovered_on": "2026-09-28",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "5,464",
+        "url": "https://github.com/vercel-labs/scriptc"
+    },
+    "mvschwarz/openrig": {
+        "discovered_on": "2026-09-28",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 7,
+        "total_stars": "1,107",
+        "url": "https://github.com/mvschwarz/openrig"
+    },
+    "willfaust/Madeira": {
+        "discovered_on": "2026-09-28",
+        "category_lang": "C",
+        "highest_rank_achieved": 9,
+        "total_stars": "861",
+        "url": "https://github.com/willfaust/Madeira"
+    },
+    "miuuyy/codex-chatgpt-web": {
+        "discovered_on": "2026-09-28",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 3,
+        "total_stars": "12,189",
+        "url": "https://github.com/miuuyy/codex-chatgpt-web"
     }
 }
