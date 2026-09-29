@@ -2413,5 +2413,26 @@
         "highest_rank_achieved": 3,
         "total_stars": "12,189",
         "url": "https://github.com/miuuyy/codex-chatgpt-web"
+    },
+    "cs341-illinois/coursebook": {
+        "discovered_on": "2026-09-29",
+        "category_lang": "TeX",
+        "highest_rank_achieved": 5,
+        "total_stars": "2,608",
+        "url": "https://github.com/cs341-illinois/coursebook"
+    },
+    "byoungd/up": {
+        "discovered_on": "2026-09-29",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "64,923",
+        "url": "https://github.com/byoungd/up"
+    },
+    "elastic/elasticsearch": {
+        "discovered_on": "2026-09-29",
+        "category_lang": "Java",
+        "highest_rank_achieved": 18,
+        "total_stars": "78,075",
+        "url": "https://github.com/elastic/elasticsearch"
     }
 }
