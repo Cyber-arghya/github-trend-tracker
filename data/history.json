@@ -2434,5 +2434,54 @@
         "highest_rank_achieved": 18,
         "total_stars": "78,075",
         "url": "https://github.com/elastic/elasticsearch"
+    },
+    "NVIDIA/OpenShell": {
+        "discovered_on": "2026-09-30",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 2,
+        "total_stars": "10,806",
+        "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    "t8y2/dbx": {
+        "discovered_on": "2026-09-30",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 5,
+        "total_stars": "22,328",
+        "url": "https://github.com/t8y2/dbx"
+    },
+    "VectifyAI/PageIndex": {
+        "discovered_on": "2026-09-30",
+        "category_lang": "Python",
+        "highest_rank_achieved": 11,
+        "total_stars": "37,559",
+        "url": "https://github.com/VectifyAI/PageIndex"
+    },
+    "rakyll/hey": {
+        "discovered_on": "2026-09-30",
+        "category_lang": "Go",
+        "highest_rank_achieved": 14,
+        "total_stars": "20,528",
+        "url": "https://github.com/rakyll/hey"
+    },
+    "NVIDIA/SkillSpector": {
+        "discovered_on": "2026-09-30",
+        "category_lang": "Python",
+        "highest_rank_achieved": 19,
+        "total_stars": "18,669",
+        "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    "longbridge/gpui-kit": {
+        "discovered_on": "2026-09-30",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 20,
+        "total_stars": "15,136",
+        "url": "https://github.com/longbridge/gpui-kit"
+    },
+    "ahujasid/mcp-for-blender": {
+        "discovered_on": "2026-09-30",
+        "category_lang": "Python",
+        "highest_rank_achieved": 23,
+        "total_stars": "29,681",
+        "url": "https://github.com/ahujasid/mcp-for-blender"
     }
 }
