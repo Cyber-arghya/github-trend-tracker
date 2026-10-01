@@ -2483,5 +2483,33 @@
         "highest_rank_achieved": 23,
         "total_stars": "29,681",
         "url": "https://github.com/ahujasid/mcp-for-blender"
+    },
+    "firebase/firebase-ios-sdk": {
+        "discovered_on": "2026-10-01",
+        "category_lang": "C++",
+        "highest_rank_achieved": 11,
+        "total_stars": "6,778",
+        "url": "https://github.com/firebase/firebase-ios-sdk"
+    },
+    "modelcontextprotocol/servers": {
+        "discovered_on": "2026-10-01",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "90,852",
+        "url": "https://github.com/modelcontextprotocol/servers"
+    },
+    "colbymchenry/codegraph": {
+        "discovered_on": "2026-10-01",
+        "category_lang": "C",
+        "highest_rank_achieved": 14,
+        "total_stars": "72,645",
+        "url": "https://github.com/colbymchenry/codegraph"
+    },
+    "alirezarezvani/claude-skills": {
+        "discovered_on": "2026-10-01",
+        "category_lang": "Python",
+        "highest_rank_achieved": 16,
+        "total_stars": "27,068",
+        "url": "https://github.com/alirezarezvani/claude-skills"
     }
 }
