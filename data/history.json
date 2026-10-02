@@ -2511,5 +2511,40 @@
         "highest_rank_achieved": 16,
         "total_stars": "27,068",
         "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    "tile-ai/tilelang": {
+        "discovered_on": "2026-10-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 11,
+        "total_stars": "8,150",
+        "url": "https://github.com/tile-ai/tilelang"
+    },
+    "pablostanley/yoinks": {
+        "discovered_on": "2026-10-02",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "3,031",
+        "url": "https://github.com/pablostanley/yoinks"
+    },
+    "HunxByts/GhostTrack": {
+        "discovered_on": "2026-10-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "16,480",
+        "url": "https://github.com/HunxByts/GhostTrack"
+    },
+    "Friedrich-M/UniMate": {
+        "discovered_on": "2026-10-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "1,118",
+        "url": "https://github.com/Friedrich-M/UniMate"
+    },
+    "flutter/flutter": {
+        "discovered_on": "2026-10-02",
+        "category_lang": "Dart",
+        "highest_rank_achieved": 17,
+        "total_stars": "179,233",
+        "url": "https://github.com/flutter/flutter"
     }
 }
