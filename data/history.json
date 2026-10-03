@@ -2546,5 +2546,19 @@
         "highest_rank_achieved": 17,
         "total_stars": "179,233",
         "url": "https://github.com/flutter/flutter"
+    },
+    "getsentry/sentry": {
+        "discovered_on": "2026-10-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "45,058",
+        "url": "https://github.com/getsentry/sentry"
+    },
+    "Effect-TS/effect": {
+        "discovered_on": "2026-10-03",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 16,
+        "total_stars": "16,598",
+        "url": "https://github.com/Effect-TS/effect"
     }
 }
