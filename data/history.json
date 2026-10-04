@@ -2560,5 +2560,26 @@
         "highest_rank_achieved": 16,
         "total_stars": "16,598",
         "url": "https://github.com/Effect-TS/effect"
+    },
+    "jamwithai/production-agentic-rag-course": {
+        "discovered_on": "2026-10-04",
+        "category_lang": "Python",
+        "highest_rank_achieved": 17,
+        "total_stars": "9,434",
+        "url": "https://github.com/jamwithai/production-agentic-rag-course"
+    },
+    "meituan-longcat/LongCat-Video": {
+        "discovered_on": "2026-10-04",
+        "category_lang": "Python",
+        "highest_rank_achieved": 18,
+        "total_stars": "8,811",
+        "url": "https://github.com/meituan-longcat/LongCat-Video"
+    },
+    "boykopovar/AnyPS5": {
+        "discovered_on": "2026-10-04",
+        "category_lang": "C++",
+        "highest_rank_achieved": 18,
+        "total_stars": "3,302",
+        "url": "https://github.com/boykopovar/AnyPS5"
     }
 }
