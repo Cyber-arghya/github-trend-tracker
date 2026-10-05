@@ -2581,5 +2581,40 @@
         "highest_rank_achieved": 18,
         "total_stars": "3,302",
         "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    "tester-army/e2e": {
+        "discovered_on": "2026-10-05",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 1,
+        "total_stars": "3,359",
+        "url": "https://github.com/tester-army/e2e"
+    },
+    "caddyserver/caddy": {
+        "discovered_on": "2026-10-05",
+        "category_lang": "Go",
+        "highest_rank_achieved": 10,
+        "total_stars": "76,635",
+        "url": "https://github.com/caddyserver/caddy"
+    },
+    "michael-denyer/pstack-claude": {
+        "discovered_on": "2026-10-05",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "1,191",
+        "url": "https://github.com/michael-denyer/pstack-claude"
+    },
+    "garrytan/gstack": {
+        "discovered_on": "2026-10-05",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "135,212",
+        "url": "https://github.com/garrytan/gstack"
+    },
+    "antirez/ds4": {
+        "discovered_on": "2026-10-05",
+        "category_lang": "C",
+        "highest_rank_achieved": 16,
+        "total_stars": "23,482",
+        "url": "https://github.com/antirez/ds4"
     }
 }
