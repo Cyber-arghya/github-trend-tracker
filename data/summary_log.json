@@ -320,5 +320,8 @@
     "1_daily_e2e.md",
     "14_daily_gstack.md",
     "11_daily_pstack-claude.md",
-    "16_daily_ds4.md"
+    "16_daily_ds4.md",
+    "10_daily_openGym.md",
+    "9_weekly_tuios.md",
+    "14_daily_esp32-c3-adblock.md"
 ]

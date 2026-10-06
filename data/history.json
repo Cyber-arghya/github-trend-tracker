@@ -2616,5 +2616,26 @@
         "highest_rank_achieved": 16,
         "total_stars": "23,482",
         "url": "https://github.com/antirez/ds4"
+    },
+    "DuarteSantos8/openGym": {
+        "discovered_on": "2026-10-06",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 10,
+        "total_stars": "4,466",
+        "url": "https://github.com/DuarteSantos8/openGym"
+    },
+    "M-Abozaid/esp32-c3-adblock": {
+        "discovered_on": "2026-10-06",
+        "category_lang": "C++",
+        "highest_rank_achieved": 14,
+        "total_stars": "1,472",
+        "url": "https://github.com/M-Abozaid/esp32-c3-adblock"
+    },
+    "Gaurav-Gosain/tuios": {
+        "discovered_on": "2026-10-06",
+        "category_lang": "Go",
+        "highest_rank_achieved": 9,
+        "total_stars": "4,876",
+        "url": "https://github.com/Gaurav-Gosain/tuios"
     }
 }
