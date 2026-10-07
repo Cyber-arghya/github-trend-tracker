@@ -2637,5 +2637,19 @@
         "highest_rank_achieved": 9,
         "total_stars": "4,876",
         "url": "https://github.com/Gaurav-Gosain/tuios"
+    },
+    "morluto/rea": {
+        "discovered_on": "2026-10-07",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "10,223",
+        "url": "https://github.com/morluto/rea"
+    },
+    "deepseek-ai/DeepGEMM": {
+        "discovered_on": "2026-10-07",
+        "category_lang": "Cuda",
+        "highest_rank_achieved": 9,
+        "total_stars": "8,772",
+        "url": "https://github.com/deepseek-ai/DeepGEMM"
     }
 }
