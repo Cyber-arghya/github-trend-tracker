@@ -2651,5 +2651,26 @@
         "highest_rank_achieved": 9,
         "total_stars": "8,772",
         "url": "https://github.com/deepseek-ai/DeepGEMM"
+    },
+    "EpicGames/raddebugger": {
+        "discovered_on": "2026-10-08",
+        "category_lang": "C",
+        "highest_rank_achieved": 7,
+        "total_stars": "7,922",
+        "url": "https://github.com/EpicGames/raddebugger"
+    },
+    "manaflow-ai/cmux": {
+        "discovered_on": "2026-10-08",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 9,
+        "total_stars": "27,921",
+        "url": "https://github.com/manaflow-ai/cmux"
+    },
+    "spotify/portal-ai-plugins": {
+        "discovered_on": "2026-10-08",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "2,425",
+        "url": "https://github.com/spotify/portal-ai-plugins"
     }
 }
