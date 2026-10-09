@@ -2672,5 +2672,12 @@
         "highest_rank_achieved": 8,
         "total_stars": "2,425",
         "url": "https://github.com/spotify/portal-ai-plugins"
+    },
+    "storytold/artcraft": {
+        "discovered_on": "2026-10-09",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 8,
+        "total_stars": "8,633",
+        "url": "https://github.com/storytold/artcraft"
     }
 }
