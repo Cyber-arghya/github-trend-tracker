@@ -2679,5 +2679,26 @@
         "highest_rank_achieved": 8,
         "total_stars": "8,633",
         "url": "https://github.com/storytold/artcraft"
+    },
+    "BerriAI/litellm": {
+        "discovered_on": "2026-10-10",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "60,756",
+        "url": "https://github.com/BerriAI/litellm"
+    },
+    "Robbyant/lingbot-map": {
+        "discovered_on": "2026-10-10",
+        "category_lang": "Python",
+        "highest_rank_achieved": 10,
+        "total_stars": "17,784",
+        "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    "twostraws/SwiftUI-Agent-Skill": {
+        "discovered_on": "2026-10-10",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 11,
+        "total_stars": "5,547",
+        "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
     }
 }
