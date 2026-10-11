@@ -2700,5 +2700,19 @@
         "highest_rank_achieved": 11,
         "total_stars": "5,547",
         "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
+    },
+    "hugohe3/ppt-master": {
+        "discovered_on": "2026-10-11",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "59,663",
+        "url": "https://github.com/hugohe3/ppt-master"
+    },
+    "ranxianglei/billion-context": {
+        "discovered_on": "2026-10-11",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "798",
+        "url": "https://github.com/ranxianglei/billion-context"
     }
 }
