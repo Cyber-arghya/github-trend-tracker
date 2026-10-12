@@ -2714,5 +2714,19 @@
         "highest_rank_achieved": 11,
         "total_stars": "798",
         "url": "https://github.com/ranxianglei/billion-context"
+    },
+    "chrislgarry/Apollo-11": {
+        "discovered_on": "2026-10-12",
+        "category_lang": "Assembly",
+        "highest_rank_achieved": 8,
+        "total_stars": "74,361",
+        "url": "https://github.com/chrislgarry/Apollo-11"
+    },
+    "danyuchn/asd-ste100-skill": {
+        "discovered_on": "2026-10-12",
+        "category_lang": "Python",
+        "highest_rank_achieved": 11,
+        "total_stars": "4,555",
+        "url": "https://github.com/danyuchn/asd-ste100-skill"
     }
 }
