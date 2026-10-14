@@ -2742,5 +2742,19 @@
         "highest_rank_achieved": 8,
         "total_stars": "41,008",
         "url": "https://github.com/microsoft/BitNet"
+    },
+    "xtool-org/xtool": {
+        "discovered_on": "2026-10-14",
+        "category_lang": "Swift",
+        "highest_rank_achieved": 9,
+        "total_stars": "9,616",
+        "url": "https://github.com/xtool-org/xtool"
+    },
+    "google/artemis": {
+        "discovered_on": "2026-10-14",
+        "category_lang": "Python",
+        "highest_rank_achieved": 22,
+        "total_stars": "11,589",
+        "url": "https://github.com/google/artemis"
     }
 }
