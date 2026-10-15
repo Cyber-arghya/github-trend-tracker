@@ -2756,5 +2756,26 @@
         "highest_rank_achieved": 22,
         "total_stars": "11,589",
         "url": "https://github.com/google/artemis"
+    },
+    "ifixai-ai/iFixAi": {
+        "discovered_on": "2026-10-15",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "27,621",
+        "url": "https://github.com/ifixai-ai/iFixAi"
+    },
+    "rust-lang/rust": {
+        "discovered_on": "2026-10-15",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 9,
+        "total_stars": "120,105",
+        "url": "https://github.com/rust-lang/rust"
+    },
+    "ntdevlabs/tiny11builder": {
+        "discovered_on": "2026-10-15",
+        "category_lang": "C#",
+        "highest_rank_achieved": 11,
+        "total_stars": "20,306",
+        "url": "https://github.com/ntdevlabs/tiny11builder"
     }
 }
