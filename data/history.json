@@ -2777,5 +2777,19 @@
         "highest_rank_achieved": 11,
         "total_stars": "20,306",
         "url": "https://github.com/ntdevlabs/tiny11builder"
+    },
+    "lightseekorg/tokenspeed": {
+        "discovered_on": "2026-10-16",
+        "category_lang": "Python",
+        "highest_rank_achieved": 11,
+        "total_stars": "2,537",
+        "url": "https://github.com/lightseekorg/tokenspeed"
+    },
+    "xerj-org/xerj": {
+        "discovered_on": "2026-10-16",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 12,
+        "total_stars": "5,833",
+        "url": "https://github.com/xerj-org/xerj"
     }
 }
