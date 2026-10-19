@@ -2805,5 +2805,19 @@
         "highest_rank_achieved": 12,
         "total_stars": "23,850",
         "url": "https://github.com/hmjz100/LinkSwift"
+    },
+    "mlabonne/llm-course": {
+        "discovered_on": "2026-10-19",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 11,
+        "total_stars": "84,138",
+        "url": "https://github.com/mlabonne/llm-course"
+    },
+    "Kruk2/jasna": {
+        "discovered_on": "2026-10-19",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "2,513",
+        "url": "https://github.com/Kruk2/jasna"
     }
 }
