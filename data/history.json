@@ -2847,5 +2847,33 @@
         "highest_rank_achieved": 13,
         "total_stars": "9,400",
         "url": "https://github.com/YuJunZhiXue/dsh-purge"
+    },
+    "Graphify-Labs/graphify": {
+        "discovered_on": "2026-10-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "130,444",
+        "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    "wshobson/agents": {
+        "discovered_on": "2026-10-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "41,310",
+        "url": "https://github.com/wshobson/agents"
+    },
+    "sickn33/agentic-awesome-skills": {
+        "discovered_on": "2026-10-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "48,163",
+        "url": "https://github.com/sickn33/agentic-awesome-skills"
+    },
+    "vllm-project/vllm": {
+        "discovered_on": "2026-10-21",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "94,502",
+        "url": "https://github.com/vllm-project/vllm"
     }
 }
