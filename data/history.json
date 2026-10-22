@@ -2875,5 +2875,19 @@
         "highest_rank_achieved": 15,
         "total_stars": "94,502",
         "url": "https://github.com/vllm-project/vllm"
+    },
+    "twentyhq/twenty": {
+        "discovered_on": "2026-10-22",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "59,275",
+        "url": "https://github.com/twentyhq/twenty"
+    },
+    "strelov1/freehire": {
+        "discovered_on": "2026-10-22",
+        "category_lang": "Go",
+        "highest_rank_achieved": 10,
+        "total_stars": "2,504",
+        "url": "https://github.com/strelov1/freehire"
     }
 }
