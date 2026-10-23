@@ -2889,5 +2889,33 @@
         "highest_rank_achieved": 10,
         "total_stars": "2,504",
         "url": "https://github.com/strelov1/freehire"
+    },
+    "php/php-src": {
+        "discovered_on": "2026-10-23",
+        "category_lang": "C",
+        "highest_rank_achieved": 1,
+        "total_stars": "41,249",
+        "url": "https://github.com/php/php-src"
+    },
+    "fastapi/fastapi": {
+        "discovered_on": "2026-10-23",
+        "category_lang": "Python",
+        "highest_rank_achieved": 7,
+        "total_stars": "103,859",
+        "url": "https://github.com/fastapi/fastapi"
+    },
+    "luongnv89/claude-howto": {
+        "discovered_on": "2026-10-23",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "43,389",
+        "url": "https://github.com/luongnv89/claude-howto"
+    },
+    "Meloong-Git/PCL": {
+        "discovered_on": "2026-10-23",
+        "category_lang": "Visual Basic .NET",
+        "highest_rank_achieved": 9,
+        "total_stars": "8,753",
+        "url": "https://github.com/Meloong-Git/PCL"
     }
 }
