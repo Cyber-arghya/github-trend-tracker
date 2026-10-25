@@ -2938,5 +2938,40 @@
         "highest_rank_achieved": 15,
         "total_stars": "5,472",
         "url": "https://github.com/elie222/rakazo"
+    },
+    "aws/agent-toolkit-for-aws": {
+        "discovered_on": "2026-10-25",
+        "category_lang": "Python",
+        "highest_rank_achieved": 3,
+        "total_stars": "3,170",
+        "url": "https://github.com/aws/agent-toolkit-for-aws"
+    },
+    "pollen-robotics/microduck": {
+        "discovered_on": "2026-10-25",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 7,
+        "total_stars": "11,071",
+        "url": "https://github.com/pollen-robotics/microduck"
+    },
+    "google-gemini/gemini-cli": {
+        "discovered_on": "2026-10-25",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "108,141",
+        "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    "jbiaojerry/ebook-treasure-chest": {
+        "discovered_on": "2026-10-25",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "22,745",
+        "url": "https://github.com/jbiaojerry/ebook-treasure-chest"
+    },
+    "makecindy/cindy": {
+        "discovered_on": "2026-10-25",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 10,
+        "total_stars": "4,176",
+        "url": "https://github.com/makecindy/cindy"
     }
 }
