@@ -2973,5 +2973,26 @@
         "highest_rank_achieved": 10,
         "total_stars": "4,176",
         "url": "https://github.com/makecindy/cindy"
+    },
+    "JetBrains/thinkrail": {
+        "discovered_on": "2026-10-26",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "1,944",
+        "url": "https://github.com/JetBrains/thinkrail"
+    },
+    "coollabsio/coolify": {
+        "discovered_on": "2026-10-26",
+        "category_lang": "PHP",
+        "highest_rank_achieved": 9,
+        "total_stars": "64,539",
+        "url": "https://github.com/coollabsio/coolify"
+    },
+    "AgriciDaniel/claude-seo": {
+        "discovered_on": "2026-10-26",
+        "category_lang": "Python",
+        "highest_rank_achieved": 11,
+        "total_stars": "21,123",
+        "url": "https://github.com/AgriciDaniel/claude-seo"
     }
 }
