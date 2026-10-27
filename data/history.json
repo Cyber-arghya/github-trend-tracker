@@ -2994,5 +2994,26 @@
         "highest_rank_achieved": 11,
         "total_stars": "21,123",
         "url": "https://github.com/AgriciDaniel/claude-seo"
+    },
+    "nightly-labs/openbot": {
+        "discovered_on": "2026-10-27",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "1,607",
+        "url": "https://github.com/nightly-labs/openbot"
+    },
+    "gitroomhq/postiz-app": {
+        "discovered_on": "2026-10-27",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 12,
+        "total_stars": "38,596",
+        "url": "https://github.com/gitroomhq/postiz-app"
+    },
+    "alchaincyf/huashu-design": {
+        "discovered_on": "2026-10-27",
+        "category_lang": "HTML",
+        "highest_rank_achieved": 13,
+        "total_stars": "27,102",
+        "url": "https://github.com/alchaincyf/huashu-design"
     }
 }
