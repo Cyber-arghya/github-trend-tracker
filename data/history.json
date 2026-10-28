@@ -3015,5 +3015,19 @@
         "highest_rank_achieved": 13,
         "total_stars": "27,102",
         "url": "https://github.com/alchaincyf/huashu-design"
+    },
+    "elayadesign/ai-design-skills": {
+        "discovered_on": "2026-10-28",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 1,
+        "total_stars": "9,796",
+        "url": "https://github.com/elayadesign/ai-design-skills"
+    },
+    "togg53192-cmd/jailbreaks": {
+        "discovered_on": "2026-10-28",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 11,
+        "total_stars": "5,835",
+        "url": "https://github.com/togg53192-cmd/jailbreaks"
     }
 }
