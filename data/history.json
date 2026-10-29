@@ -3029,5 +3029,26 @@
         "highest_rank_achieved": 11,
         "total_stars": "5,835",
         "url": "https://github.com/togg53192-cmd/jailbreaks"
+    },
+    "expo/skills": {
+        "discovered_on": "2026-10-29",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 12,
+        "total_stars": "3,641",
+        "url": "https://github.com/expo/skills"
+    },
+    "xiaolai/the-craft-of-selfteaching": {
+        "discovered_on": "2026-10-29",
+        "category_lang": "Jupyter Notebook",
+        "highest_rank_achieved": 14,
+        "total_stars": "18,636",
+        "url": "https://github.com/xiaolai/the-craft-of-selfteaching"
+    },
+    "Leonxlnx/taste-skill": {
+        "discovered_on": "2026-10-29",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "104,712",
+        "url": "https://github.com/Leonxlnx/taste-skill"
     }
 }
