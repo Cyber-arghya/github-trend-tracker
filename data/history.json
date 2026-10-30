@@ -3050,5 +3050,26 @@
         "highest_rank_achieved": 8,
         "total_stars": "104,712",
         "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    "milind-soni/OpenMausBot": {
+        "discovered_on": "2026-10-30",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 5,
+        "total_stars": "7,621",
+        "url": "https://github.com/milind-soni/OpenMausBot"
+    },
+    "CopilotKit/OpenBot": {
+        "discovered_on": "2026-10-30",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "8,261",
+        "url": "https://github.com/CopilotKit/OpenBot"
+    },
+    "Donchitos/Claude-Code-Game-Studios": {
+        "discovered_on": "2026-10-30",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 11,
+        "total_stars": "29,473",
+        "url": "https://github.com/Donchitos/Claude-Code-Game-Studios"
     }
 }
