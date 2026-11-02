@@ -3092,5 +3092,54 @@
         "highest_rank_achieved": 15,
         "total_stars": "45,379",
         "url": "https://github.com/AstrBotDevs/AstrBot"
+    },
+    "cjpais/Handy": {
+        "discovered_on": "2026-11-02",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 7,
+        "total_stars": "36,753",
+        "url": "https://github.com/cjpais/Handy"
+    },
+    "kornia/kornia": {
+        "discovered_on": "2026-11-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "11,886",
+        "url": "https://github.com/kornia/kornia"
+    },
+    "beenuar/AiSOC": {
+        "discovered_on": "2026-11-02",
+        "category_lang": "Python",
+        "highest_rank_achieved": 10,
+        "total_stars": "6,360",
+        "url": "https://github.com/beenuar/AiSOC"
+    },
+    "anomalyco/hex": {
+        "discovered_on": "2026-11-02",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 12,
+        "total_stars": "3,503",
+        "url": "https://github.com/anomalyco/hex"
+    },
+    "patchy631/ai-engineering-hub": {
+        "discovered_on": "2026-11-02",
+        "category_lang": "Jupyter Notebook",
+        "highest_rank_achieved": 15,
+        "total_stars": "40,482",
+        "url": "https://github.com/patchy631/ai-engineering-hub"
+    },
+    "hyprwm/Hyprland": {
+        "discovered_on": "2026-11-02",
+        "category_lang": "C++",
+        "highest_rank_achieved": 17,
+        "total_stars": "39,479",
+        "url": "https://github.com/hyprwm/Hyprland"
+    },
+    "ghostty-org/ghostty": {
+        "discovered_on": "2026-11-02",
+        "category_lang": "Zig",
+        "highest_rank_achieved": 16,
+        "total_stars": "63,216",
+        "url": "https://github.com/ghostty-org/ghostty"
     }
 }
