@@ -3141,5 +3141,26 @@
         "highest_rank_achieved": 16,
         "total_stars": "63,216",
         "url": "https://github.com/ghostty-org/ghostty"
+    },
+    "vercel-labs/agent-desktop": {
+        "discovered_on": "2026-11-03",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 1,
+        "total_stars": "10,630",
+        "url": "https://github.com/vercel-labs/agent-desktop"
+    },
+    "D4Vinci/Scrapling": {
+        "discovered_on": "2026-11-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 3,
+        "total_stars": "93,287",
+        "url": "https://github.com/D4Vinci/Scrapling"
+    },
+    "karpathy/nanochat": {
+        "discovered_on": "2026-11-03",
+        "category_lang": "Python",
+        "highest_rank_achieved": 14,
+        "total_stars": "60,014",
+        "url": "https://github.com/karpathy/nanochat"
     }
 }
