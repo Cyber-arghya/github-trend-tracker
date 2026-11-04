@@ -19,17 +19,23 @@ from supabase_client import (
 def fetch(url):
     # Minimal URL fetcher returning string content or empty string on failure
     try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        with urllib.request.urlopen(req) as res: return res.read().decode('utf-8')
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+        with urllib.request.urlopen(req, timeout=15) as res: return res.read().decode('utf-8')
     except: return ""
 
 def fetch_repo_metadata_fallback(name: str):
     """
-    Fallback fetcher for repository primary language and stars via public GitHub API.
+    Fallback fetcher for repository primary language and stars via GitHub API.
+    Uses GITHUB_TOKEN or GH_TOKEN if available to avoid 60 req/hr unauthenticated rate limits.
     """
     try:
-        req = urllib.request.Request(f"https://api.github.com/repos/{name}", headers={'User-Agent': 'GitHub-Trend-Tracker/1.0'})
-        with urllib.request.urlopen(req, timeout=4) as res:
+        headers = {'User-Agent': 'GitHub-Trend-Tracker/1.0'}
+        token = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+        if token:
+            headers['Authorization'] = f"Bearer {token}"
+            
+        req = urllib.request.Request(f"https://api.github.com/repos/{name}", headers=headers)
+        with urllib.request.urlopen(req, timeout=6) as res:
             data = json.loads(res.read().decode('utf-8'))
             lang = data.get("language") or "Unknown"
             raw_stars = data.get("stargazers_count", 0)

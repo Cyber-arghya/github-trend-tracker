@@ -232,22 +232,26 @@ def enqueue_feeder(
         print(f"⚠️ [Supabase] Error queueing feeder item '{readme_filename}': {exc}")
         return False
 
-def get_pending_feeder_items() -> List[Dict[str, Any]]:
+def get_pending_feeder_items(limit: Optional[int] = None) -> List[Dict[str, Any]]:
     """
-    Fetch all items currently in 'pending' status from the feeder queue.
+    Fetch items currently in 'pending' status from the feeder queue.
+    Supports optional batch limit to avoid unbounded context window consumption.
     """
     client = get_supabase_client()
     if not client:
         return []
 
     try:
-        res = (
+        query = (
             client.table("feeder_queue")
             .select("id, repo_name, rank, period, readme_filename, readme_content")
             .eq("status", "pending")
             .order("id")
-            .execute()
         )
+        if limit is not None and limit > 0:
+            query = query.limit(limit)
+
+        res = query.execute()
         return res.data or []
     except Exception as exc:
         print(f"⚠️ [Supabase] Error fetching pending feeder items: {exc}")

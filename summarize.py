@@ -25,15 +25,16 @@ def main():
     use_supabase = is_supabase_configured()
     write_local = (STORAGE_MODE in ("dual", "local")) or not use_supabase
 
-    if not os.environ.get("GEMINI_API_KEY"):
-        print("⚠️ GEMINI_API_KEY is not set. Skipping AI summary generation.")
+    api_key = os.environ.get("GEMINI_API_KEY", "").strip()
+    if not api_key or api_key.startswith("your-") or api_key in ("your-gemini-api-key", "placeholder"):
+        print("⚠️ GEMINI_API_KEY is not configured (or is using a placeholder). Skipping AI summary generation.")
         return
 
     items_to_process = []
     
     if use_supabase:
         print("🔍 Checking Supabase feeder_queue for unanalyzed repositories...")
-        supabase_items = get_pending_feeder_items()
+        supabase_items = get_pending_feeder_items(limit=15)
         for item in supabase_items:
             items_to_process.append({
                 "id": item["id"],
@@ -42,7 +43,7 @@ def main():
             })
     elif feeder.exists():
         log = json.loads(log_file.read_text()) if log_file.exists() else []
-        md_files = [f for f in feeder.glob("*.md") if f.name not in log]
+        md_files = [f for f in feeder.glob("*.md") if f.name not in log][:15]
         for f in md_files:
             items_to_process.append({
                 "id": None,

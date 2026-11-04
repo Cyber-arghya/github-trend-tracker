@@ -78,9 +78,12 @@ class TestGitHubCollector:
         mock_response.__enter__.return_value = mock_response
         mock_urlopen.return_value = mock_response
 
-        lang, stars = git_trend.fetch_repo_metadata_fallback("flutter/flutter")
-        assert lang == "Dart"
-        assert stars == "179,233"
+        with patch.dict(os.environ, {"GITHUB_TOKEN": "ghp_test12345"}):
+            lang, stars = git_trend.fetch_repo_metadata_fallback("flutter/flutter")
+            assert lang == "Dart"
+            assert stars == "179,233"
+            call_args = mock_urlopen.call_args[0][0]
+            assert call_args.headers.get("Authorization") == "Bearer ghp_test12345"
 
     @patch("urllib.request.urlopen")
     def test_fetch_repo_metadata_fallback_network_error(self, mock_urlopen):
