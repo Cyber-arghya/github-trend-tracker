@@ -3162,5 +3162,19 @@
         "highest_rank_achieved": 14,
         "total_stars": "60,014",
         "url": "https://github.com/karpathy/nanochat"
+    },
+    "floci-io/floci": {
+        "discovered_on": "2026-11-04",
+        "category_lang": "Java",
+        "highest_rank_achieved": 8,
+        "total_stars": "28,993",
+        "url": "https://github.com/floci-io/floci"
+    },
+    "Usagi-org/ai-goofish-monitor": {
+        "discovered_on": "2026-11-04",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "16,709",
+        "url": "https://github.com/Usagi-org/ai-goofish-monitor"
     }
 }
