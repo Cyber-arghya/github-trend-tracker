@@ -47,6 +47,6 @@ jobs:
             exit 0
           fi
           git commit -m "Auto-update: Scraped Data & DevOps Analysis [skip ci]"
-          git fetch origin main
-          git rebase origin/main
-          git push origin main
+          TARGET_BRANCH="${GITHUB_REF_NAME:-main}"
+          git pull --rebase origin "$TARGET_BRANCH"
+          git push origin HEAD:"$TARGET_BRANCH"
