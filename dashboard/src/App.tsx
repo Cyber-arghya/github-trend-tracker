@@ -83,17 +83,17 @@ export default function App() {
   const [availableKeys, setAvailableKeys] = useState<string[]>([]);
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [selectedLang, setSelectedLang] = useState<string>('All');
-  const [trendingSortField, setTrendingSortField] = useState<'rank' | 'repo_name' | 'stars' | 'is_new'>('rank');
+  const [trendingSortField, setTrendingSortField] = useState<'rank' | 'repo_name' | 'stars' | 'is_new' | 'language'>('rank');
   const [trendingSortOrder, setTrendingSortOrder] = useState<'asc' | 'desc'>('asc');
   const [statusFilter, setStatusFilter] = useState<'all' | 'new' | 'retrending'>('all');
 
-  const handleTrendingSort = (field: 'rank' | 'repo_name' | 'stars' | 'is_new') => {
+  const handleTrendingSort = (field: 'rank' | 'repo_name' | 'stars' | 'is_new' | 'language') => {
     if (trendingSortField === field) {
       setTrendingSortOrder((prev) => (prev === 'asc' ? 'desc' : 'asc'));
     } else {
       setTrendingSortField(field);
-      if (field === 'stars' || field === 'is_new') {
-        setTrendingSortOrder('desc'); // High stars first, New entries first
+      if (field === 'stars' || field === 'is_new' || field === 'language') {
+        setTrendingSortOrder('desc'); // High stars first, New first, Highest language count first
       } else {
         setTrendingSortOrder('asc'); // Rank #1 first, A-Z
       }
@@ -318,43 +318,76 @@ export default function App() {
     }
   }, [snapshots, selectedPeriod]);
 
-  // Languages that actually exist in the currently selected snapshot period & key
+  // Languages that actually exist in the currently selected snapshot period & key,
+  // sorted by repository count descending (most popular languages first)
   const availableSnapshotLanguages = useMemo(() => {
-    const langs = new Set<string>();
-    let hasUnknown = false;
+    const counts: Record<string, number> = {};
+    let total = 0;
     snapshots.forEach((s) => {
       const matchPeriod = s.period === selectedPeriod;
       const matchKey = selectedPeriodKey ? s.period_key === selectedPeriodKey : true;
       if (matchPeriod && matchKey) {
-        if (s.category_lang && s.category_lang !== 'Unknown') {
-          langs.add(s.category_lang);
-        } else if (s.category_lang === 'Unknown' || !s.category_lang) {
-          hasUnknown = true;
-        }
+        total++;
+        const lang = s.category_lang || 'Unknown';
+        counts[lang] = (counts[lang] || 0) + 1;
       }
     });
-    const sorted = Array.from(langs).sort();
-    return ['All', ...sorted, ...(hasUnknown ? ['Unknown'] : [])];
+
+    // Sort languages by count descending (highest count first)
+    const sorted = Object.entries(counts)
+      .filter(([lang]) => lang !== 'Unknown')
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([lang, count]) => ({ name: lang, count }));
+
+    const hasUnknown = counts['Unknown'] || 0;
+    const unknownEntry = hasUnknown > 0 ? [{ name: 'Unknown', count: hasUnknown }] : [];
+
+    return [
+      { name: 'All', count: total },
+      ...sorted,
+      ...unknownEntry,
+    ];
   }, [snapshots, selectedPeriod, selectedPeriodKey]);
 
-  // Languages that actually exist in the tracked repositories catalog
-  const availableCatalogLanguages = useMemo(() => {
-    const langs = new Set<string>();
-    let hasUnknown = false;
-    repositories.forEach((r) => {
-      if (r.category_lang && r.category_lang !== 'Unknown') {
-        langs.add(r.category_lang);
-      } else if (!r.category_lang || r.category_lang === 'Unknown') {
-        hasUnknown = true;
-      }
+  // Fast map for looking up language counts in current snapshot view
+  const snapshotLangCountMap = useMemo(() => {
+    const map: Record<string, number> = {};
+    availableSnapshotLanguages.forEach(({ name, count }) => {
+      map[name] = count;
     });
-    const sorted = Array.from(langs).sort();
-    return ['All', ...sorted, ...(hasUnknown ? ['Unknown'] : [])];
+    return map;
+  }, [availableSnapshotLanguages]);
+
+  // Languages that actually exist in the tracked repositories catalog,
+  // sorted by repository count descending
+  const availableCatalogLanguages = useMemo(() => {
+    const counts: Record<string, number> = {};
+    let total = 0;
+    repositories.forEach((r) => {
+      total++;
+      const lang = r.category_lang || 'Unknown';
+      counts[lang] = (counts[lang] || 0) + 1;
+    });
+
+    const sorted = Object.entries(counts)
+      .filter(([lang]) => lang !== 'Unknown')
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([lang, count]) => ({ name: lang, count }));
+
+    const hasUnknown = counts['Unknown'] || 0;
+    const unknownEntry = hasUnknown > 0 ? [{ name: 'Unknown', count: hasUnknown }] : [];
+
+    return [
+      { name: 'All', count: total },
+      ...sorted,
+      ...unknownEntry,
+    ];
   }, [repositories]);
 
   // Auto-reset selectedLang to 'All' if selected language is not in available snapshot languages
   useEffect(() => {
-    if (selectedLang !== 'All' && !availableSnapshotLanguages.includes(selectedLang)) {
+    const names = availableSnapshotLanguages.map((l) => l.name);
+    if (selectedLang !== 'All' && !names.includes(selectedLang)) {
       setSelectedLang('All');
     }
   }, [availableSnapshotLanguages, selectedLang]);
@@ -386,10 +419,32 @@ export default function App() {
           diff = a.repo_name.localeCompare(b.repo_name);
         } else if (trendingSortField === 'is_new') {
           diff = (a.is_new ? 1 : 0) - (b.is_new ? 1 : 0);
+        } else if (trendingSortField === 'language') {
+          // Group same language repos together, with highest repo frequency first
+          const countA = snapshotLangCountMap[a.category_lang] || 0;
+          const countB = snapshotLangCountMap[b.category_lang] || 0;
+          if (trendingSortOrder === 'desc') {
+            // Most popular language first
+            diff = countB - countA;
+            if (diff === 0) {
+              diff = a.category_lang.localeCompare(b.category_lang);
+            }
+          } else {
+            // Least popular language first or alphabetical
+            diff = countA - countB;
+            if (diff === 0) {
+              diff = a.category_lang.localeCompare(b.category_lang);
+            }
+          }
+          // Inside same language group, sort by rank #1 first
+          if (diff === 0) {
+            return a.rank - b.rank;
+          }
+          return diff;
         }
         return trendingSortOrder === 'asc' ? diff : -diff;
       });
-  }, [snapshots, selectedPeriod, selectedPeriodKey, selectedLang, statusFilter, searchQuery, trendingSortField, trendingSortOrder]);
+  }, [snapshots, selectedPeriod, selectedPeriodKey, selectedLang, statusFilter, searchQuery, trendingSortField, trendingSortOrder, snapshotLangCountMap]);
 
   // Top Languages Breakdown
   const topLanguages = useMemo(() => {
@@ -719,6 +774,22 @@ export default function App() {
                 >
                   <span>Name (A → Z)</span>
                 </button>
+
+                <button
+                  onClick={() => {
+                    setTrendingSortField('language');
+                    setTrendingSortOrder('desc');
+                  }}
+                  className={`px-2.5 py-1 rounded-lg text-xs font-semibold flex items-center space-x-1.5 transition-all ${
+                    trendingSortField === 'language'
+                      ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/40 shadow-sm'
+                      : 'bg-slate-800/60 text-slate-400 hover:text-slate-200 border border-slate-700/40'
+                  }`}
+                  title="Group repos by language with most frequent language first"
+                >
+                  <Code2 className="h-3 w-3 text-emerald-400" />
+                  <span>Language (Most First)</span>
+                </button>
               </div>
             </div>
 
@@ -740,17 +811,22 @@ export default function App() {
                 className="lang-scroll-container flex items-center space-x-1.5 overflow-x-auto py-1 scroll-smooth select-none cursor-grab active:cursor-grabbing w-full scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-transparent"
                 title="Scroll with mouse wheel"
               >
-                {availableSnapshotLanguages.map((lang) => (
+                {availableSnapshotLanguages.map(({ name, count }) => (
                   <button
-                    key={lang}
-                    onClick={() => setSelectedLang(lang)}
-                    className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap transition-colors ${
-                      selectedLang === lang
+                    key={name}
+                    onClick={() => setSelectedLang(name)}
+                    className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap transition-colors flex items-center space-x-1.5 ${
+                      selectedLang === name
                         ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 shadow-sm'
                         : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border border-slate-800/60'
                     }`}
                   >
-                    {lang}
+                    <span>{name}</span>
+                    <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono font-bold ${
+                      selectedLang === name ? 'bg-indigo-500/40 text-indigo-100' : 'bg-slate-800 text-slate-400'
+                    }`}>
+                      {count}
+                    </span>
                   </button>
                 ))}
               </div>
@@ -834,8 +910,31 @@ export default function App() {
                       </div>
                     </th>
 
-                    <th scope="col" className="py-3.5 px-4">
-                      Language
+                    {/* Sortable Language Header (Groups same language, most frequent first) */}
+                    <th
+                      scope="col"
+                      className="py-3.5 px-4 cursor-pointer select-none hover:text-white transition-colors group"
+                      onClick={() => handleTrendingSort('language')}
+                      aria-sort={
+                        trendingSortField === 'language'
+                          ? trendingSortOrder === 'asc'
+                            ? 'ascending'
+                            : 'descending'
+                          : 'none'
+                      }
+                    >
+                      <div className="inline-flex items-center space-x-1.5">
+                        <span>Language</span>
+                        {trendingSortField === 'language' ? (
+                          trendingSortOrder === 'desc' ? (
+                            <ArrowDown className="h-3.5 w-3.5 text-emerald-400" />
+                          ) : (
+                            <ArrowUp className="h-3.5 w-3.5 text-emerald-400" />
+                          )
+                        ) : (
+                          <ArrowUpDown className="h-3.5 w-3.5 text-slate-500 opacity-60 group-hover:opacity-100" />
+                        )}
+                      </div>
                     </th>
 
                     {/* Sortable Stars Header */}
@@ -1208,17 +1307,22 @@ export default function App() {
                 className="catalog-lang-container flex items-center space-x-1.5 overflow-x-auto py-1 scroll-smooth select-none cursor-grab active:cursor-grabbing w-full scrollbar-thin scrollbar-thumb-slate-700 scrollbar-track-transparent"
                 title="Scroll with mouse wheel"
               >
-                {availableCatalogLanguages.map((lang) => (
+                {availableCatalogLanguages.map(({ name, count }) => (
                   <button
-                    key={lang}
-                    onClick={() => setCatalogLang(lang)}
-                    className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap transition-colors ${
-                      catalogLang === lang
+                    key={name}
+                    onClick={() => setCatalogLang(name)}
+                    className={`px-3 py-1 rounded-full text-xs font-medium whitespace-nowrap transition-colors flex items-center space-x-1.5 ${
+                      catalogLang === name
                         ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/40 shadow-sm'
                         : 'bg-slate-900/60 text-slate-400 hover:text-slate-200 border border-slate-800/60'
                     }`}
                   >
-                    {lang}
+                    <span>{name}</span>
+                    <span className={`text-[10px] px-1.5 py-0.2 rounded-full font-mono font-bold ${
+                      catalogLang === name ? 'bg-indigo-500/40 text-indigo-100' : 'bg-slate-800 text-slate-400'
+                    }`}>
+                      {count}
+                    </span>
                   </button>
                 ))}
               </div>
