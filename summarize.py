@@ -2,11 +2,15 @@ import os, json, sys
 from google import genai
 from pathlib import Path
 from datetime import datetime
+from dotenv import load_dotenv
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8")
+
+# Load environment variables from .env
+load_dotenv()
 
 from supabase_client import (
     is_supabase_configured,
