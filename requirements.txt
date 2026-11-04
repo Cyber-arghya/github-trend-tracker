@@ -1,3 +1,5 @@
 requests
 beautifulsoup4
 google-genai
+supabase>=2.34.0
+python-dotenv>=1.0.0
