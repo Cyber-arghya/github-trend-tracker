@@ -13,6 +13,68 @@ All operational data is completely decoupled from git storage into **Supabase** 
 
 ---
 
+## 📖 About This Project
+
+### The Problem
+Open-source moves at breakneck speed. Groundbreaking developer tools, AI frameworks, and infrastructure libraries trend on GitHub for 24–48 hours and then disappear into the noise. Engineers and tech leads constantly struggle with:
+1. **Discovery Fatigue:** Manually browsing GitHub Trending every day is time-consuming.
+2. **Missing Architectural Context:** Star counts alone don't indicate if a project is production-ready, well-architected, or safe to adopt.
+3. **Lost Historical Trends:** GitHub provides no native historical archive of what was trending 3 months or a year ago.
+
+### The Solution
+**GitHub Trend Tracker** solves this with an autonomous, self-healing pipeline:
+- **Autonomous Scraper:** Automatically tracks Daily, Weekly, and Monthly trending repositories at midnight UTC.
+- **Relational Memory:** Persists long-term discovery dates, highest achieved ranks (#1 is best), and star growth in Supabase.
+- **Gemini AI Architect:** Reads technical specifications from raw READMEs and generates structured, developer-focused architecture reports highlighting production viability, security boundaries, and ROI.
+- **Modern Web Dashboard:** Provides instant search, infinite scroll cataloging, frequency-based language filters, and rich markdown summary viewers.
+
+---
+
+## ⚙️ How It Works
+
+```
+   ┌─────────────────────────────────────────────────────────────┐
+   │                    1. DISCOVERY & INGESTION                 │
+   │  Scrapes GitHub Trending HTML across Daily, Weekly, Monthly │
+   └──────────────────────────────┬──────────────────────────────┘
+                                  │
+                                  ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │                  2. TWO-TIER DATA RESILIENCE                │
+   │  Missing language or stars?                                 │
+   │  Tier 1: Restores known metadata from Supabase history      │
+   │  Tier 2: Queries GitHub API with GITHUB_TOKEN (5,000 req/hr)│
+   └──────────────────────────────┬──────────────────────────────┘
+                                  │
+                                  ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │                  3. ATOMIC DATABASE STORAGE                 │
+   │  - Upserts into public.repositories                         │
+   │  - PostgreSQL trigger parses integer stars_count via regex  │
+   │  - Preserves LEAST rank (#1 rank beats #20)                 │
+   │  - Enqueues unanalyzed repositories into public.feeder_queue│
+   └──────────────────────────────┬──────────────────────────────┘
+                                  │
+                                  ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │                  4. GEMINI AI ARCHITECT ENGINE              │
+   │  - Pulls bounded batches (max 15 repos) from feeder_queue   │
+   │  - Prompts Gemini 2.5 Flash to evaluate production readiness│
+   │  - Persists analysis to public.ai_summaries                 │
+   │  - Atomically marks feeder items as 'processed'             │
+   └──────────────────────────────┬──────────────────────────────┘
+                                  │
+                                  ▼
+   ┌─────────────────────────────────────────────────────────────┐
+   │                  5. REAL-TIME VERCEL DASHBOARD              │
+   │  - Server-side indexed pagination with scroll locks         │
+   │  - Frequency-ordered language filters: Python, TS, Rust...  │
+   │  - Multi-column sorting & full-text client search           │
+   └─────────────────────────────────────────────────────────────┘
+```
+
+---
+
 ## 🌐 Live Web Dashboard (Vercel)
 
 A fast, responsive dashboard built with **React (Vite) + Tailwind CSS + Lucide Icons**, connected live to Supabase.
@@ -29,71 +91,84 @@ A fast, responsive dashboard built with **React (Vite) + Tailwind CSS + Lucide I
   * **Trending Snapshots:** Daily, Weekly, and Monthly rankings with status badges (🔥 **[NEW ENTRY]** vs 🔄 **[Re-trending]**).
   * **AI DevOps Analysis:** Gemini 2.5 Flash architectural analysis reports rendered in rich Markdown.
 
-```bash
-# Run the dashboard locally
-npm --prefix dashboard run dev
+---
 
-# Build for production
-npm --prefix dashboard run build
+## 👤 User Guide: How to Use & Customize
+
+### Scenario A: Local Development & Quick Run
+If you want to run the pipeline locally on your machine:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Cyber-arghya/github-trend-tracker.git
+cd github-trend-tracker
+
+# 2. Install all dependencies with uv (Lightning fast)
+uv sync
+
+# (Alternatively with standard pip: pip install -r requirements.txt)
+
+# 3. Create your .env file
+cp .env.example .env
+
+# 4. Fill in your API keys in .env:
+#    - GEMINI_API_KEY (Get free key from Google AI Studio)
+#    - SUPABASE_URL & SUPABASE_KEY (From Supabase project settings)
+
+# 5. Run the scraper:
+uv run git-trend.py
+
+# 6. Run the AI architecture analyzer:
+uv run summarize.py
+
+# 7. Launch the local web dashboard:
+npm --prefix dashboard install
+npm --prefix dashboard run dev
 ```
 
 ---
 
-## 🔄 360° End-to-End Execution Pipeline
+### Scenario B: Cloud Automation (Fork & Run on Your GitHub)
+You can run this entire system 100% in the cloud without keeping your PC on:
 
-```
- [1. Trigger]
- ┌──────────────────────────────────────────────┐
- │ GitHub Actions Cron (00:00 UTC) OR           │
- │ Manual Dispatch (workflow_dispatch)          │
- └──────────────────────┬───────────────────────┘
-                        │
-                        ▼
- [2. Scraping & HTML Metadata Extraction]
- ┌──────────────────────────────────────────────┐
- │ git-trend.py                                 │
- │ - Fetch GitHub Trending HTML (Daily/Weekly/Mo)│
- │ - Parse Name, Stars, Language, Description   │
- └──────────────────────┬───────────────────────┘
-                        │
-                        ▼
- [3. Two-Tier Fallback Resilience]
- ┌──────────────────────────────────────────────┐
- │ If Stars or Language are missing:            │
- │ ➔ Tier 1: Check Supabase repositories history │
- │ ➔ Tier 2: Query GitHub API + GITHUB_TOKEN    │
- │           (5,000 req/hr authenticated limit) │
- └──────────────────────┬───────────────────────┘
-                        │
-                        ▼
- [4. Transactional Database Ingestion (Supabase)]
- ┌──────────────────────────────────────────────┐
- │ supabase_client.py                           │
- │ ➔ Upsert public.repositories                 │
- │    (Trigger: safe stars_count cast & LEAST)  │
- │ ➔ Insert public.trending_snapshots           │
- │ ➔ Enqueue new READMEs to public.feeder_queue │
- └──────────────────────┬───────────────────────┘
-                        │
-                        ▼
- [5. AI Architecture Analysis]
- ┌──────────────────────────────────────────────┐
- │ summarize.py                                 │
- │ ➔ Batch load from feeder_queue (limit=15)    │
- │ ➔ Execute Gemini 2.5 Flash analysis prompt   │
- │ ➔ Store report in public.ai_summaries        │
- │ ➔ Mark feeder_queue items as 'processed'     │
- └──────────────────────┬───────────────────────┘
-                        │
-                        ▼
- [6. Live Visualization (Vercel)]
- ┌──────────────────────────────────────────────┐
- │ React 18 + Tailwind CSS Dashboard            │
- │ ➔ Query initial page + exact count           │
- │ ➔ Fetch infinite scroll batches on demand    │
- │ ➔ Sort via indexed stars_count & best rank   │
- └──────────────────────────────────────────────┘
-```
+1. **Fork this repository** to your GitHub account.
+2. Go to **Settings ➔ Secrets and variables ➔ Actions** in your forked repo.
+3. Click **New repository secret** and add:
+   - `GEMINI_API_KEY`: Your Google Gemini API key.
+   - `SUPABASE_URL`: Your Supabase project URL (`https://<id>.supabase.co`).
+   - `SUPABASE_KEY`: Your Supabase service role or anon key.
+4. **Trigger Manually or Wait for Cron:**
+   - Go to the **Actions** tab ➔ Click **Automated Scraper & AI Analyzer** ➔ Click **Run workflow**.
+   - It runs automatically every day at midnight UTC (`00:00 UTC`).
+
+---
+
+### Scenario C: Zero-Cloud / Free Local-Only Mode
+Don't have a Supabase account? You can run the entire pipeline completely offline or on local storage:
+
+1. In `.env`, set:
+   ```env
+   STORAGE_MODE=local
+   GEMINI_API_KEY=your-gemini-key
+   ```
+2. Run `uv run git-trend.py` and `uv run summarize.py`.
+3. All data will be saved cleanly inside the local `data/` directory (`data/daily/`, `data/readmes/`, `data/summaries/`).
+
+---
+
+### Scenario D: Customizing AI Prompts & Models
+You can tailor the AI analysis to your specific engineering discipline:
+
+1. Open `summarize.py`.
+2. Modify the `prompt` string (around line 65) to change the focus:
+   - *Example:* Change from "DevOps & Infrastructure" to "Web3 & Blockchain", "Cybersecurity Tools", or "Frontend Frameworks".
+3. Change the Gemini model:
+   ```python
+   # In summarize.py
+   model='gemini-2.5-flash'  # Fast & cost-effective (Default)
+   # Or upgrade to:
+   model='gemini-2.5-pro'    # Deep reasoning & extensive architectural breakdown
+   ```
 
 ---
 
@@ -229,38 +304,6 @@ To prevent unverified changes from impacting production, all work follows the is
 | **Start Local Dashboard**| `npm --prefix dashboard run dev` | Launches frontend locally on `localhost:5173` |
 | **Build Dashboard** | `npm --prefix dashboard run build` | Compiles production bundle in `dashboard/dist` |
 | **Database Migrations** | `supabase db push` | Synchronizes versioned SQL migrations |
-
----
-
-## 🚀 Environment Configuration
-
-Copy `.env.example` to `.env`:
-```bash
-cp .env.example .env
-```
-
-Configure your environment variables:
-```env
-# Supabase Configuration
-SUPABASE_URL=https://<your-project-ref>.supabase.co
-SUPABASE_KEY=<your-service-role-or-anon-key>
-STORAGE_MODE=supabase
-
-# AI Summarization
-GEMINI_API_KEY=<your-google-gemini-api-key>
-
-# GitHub API Token (Optional, raises fallback rate limit from 60 to 5,000 req/hr)
-GITHUB_TOKEN=<your-github-personal-access-token>
-```
-
----
-
-## 🤖 GitHub Actions CI/CD Automation
-
-Automated daily scraping and summarization run via `.github/workflows/automate.yml`:
-* **Schedule:** Daily at midnight UTC (`0 0 * * *`) + manual trigger (`workflow_dispatch`).
-* **Dynamic Branch Support:** Automatically resolves target branch (`${GITHUB_REF_NAME:-main}`) for seamless testing on `test` or `main`.
-* **Zero Git Bloat:** All records write directly to Supabase; git working tree remains 100% clean.
 
 ---
 
