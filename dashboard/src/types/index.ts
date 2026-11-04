@@ -40,3 +40,4 @@ export type CatalogSortField = 'highest_rank_achieved' | 'name' | 'total_stars' 
 export type SortOrder = 'asc' | 'desc';
 export type StatusFilter = 'all' | 'new' | 'retrending';
 export type ActiveTab = 'trending' | 'summaries' | 'catalog';
+

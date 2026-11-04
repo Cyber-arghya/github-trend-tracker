@@ -30,3 +30,4 @@ export const handleWheelScroll = (e: React.WheelEvent<HTMLDivElement>) => {
     e.currentTarget.scrollLeft += e.deltaY * 1.5;
   }
 };
+
