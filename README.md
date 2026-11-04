@@ -1,21 +1,33 @@
 # GitHub Trend Tracker & AI Architecture Analyzer
 
-An automated system that scrapes daily, weekly, and monthly GitHub trending repositories, tracks discovery history, extracts README specifications, and generates production-readiness architecture reports using Google Gemini AI.
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
+[![uv](https://img.shields.io/badge/managed%20by-uv-261230.svg)](https://github.com/astral-sh/uv)
+[![Supabase](https://img.shields.io/badge/Database-Supabase%20PostgreSQL-3ECF8E.svg)](https://supabase.com/)
+[![React](https://img.shields.io/badge/Frontend-React%2018%20%2B%20Vite-61DAFB.svg)](https://vitejs.dev/)
+[![Vercel](https://img.shields.io/badge/Deployment-Vercel-black.svg)](https://vercel.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Data storage is completely decoupled from code using **Supabase** (PostgreSQL) and the **Supabase CLI**, with a live web dashboard deployed on **Vercel**.
+An automated engineering intelligence pipeline that tracks GitHub Daily, Weekly, and Monthly trending repositories, captures historical rank trajectories, extracts technical README documentation, and generates actionable production-readiness architecture reports using Google Gemini AI.
+
+All operational data is decoupled from git storage into **Supabase** (PostgreSQL) using the **Supabase CLI**, with a live, real-time web dashboard deployed on **Vercel**.
 
 ---
 
 ## 🌐 Live Web Dashboard (Vercel)
 
-A clean, responsive dashboard built with **React (Vite) + Tailwind CSS + Lucide Icons**, connected live to Supabase.
+A fast, responsive dashboard built with **React (Vite) + Tailwind CSS + Lucide Icons**, connected live to Supabase.
 
 * **Production URL:** [https://github-trend-tracker-theta.vercel.app](https://github-trend-tracker-theta.vercel.app)
-* **Features:**
-  * **Trending Snapshots:** Browse Daily, Weekly, and Monthly rankings with language filters, star counts, and status indicators (🔥 New Entry vs 🔄 Re-trending).
-  * **AI Architecture Summaries:** Read Gemini 2.5 Flash analysis reports directly in rich Markdown.
-  * **Repository Catalog:** Searchable table of all 450+ discovered repositories with highest achieved ranks.
-  * **Accessible & Responsive:** Implements modern container-aware data tables with sticky headers.
+* **Key Features:**
+  * **Interactive Infinite Scroll:** Infinite scroll catalog with scroll lock guards and compute-optimized pagination (exact count queried strictly on initial load, subsequent pages fetched via lean `.range(start, end)`).
+  * **Frequency-Ordered Language Filter:** Dynamic pills displaying repository counts per language in descending order (e.g., `All (454)`, `Python (120)`, `TypeScript (85)`).
+  * **Advanced Multi-Column Sorting:**
+    * ⭐ **Stars:** High to Low & Low to High (leveraging server-side `stars_count` index).
+    * 📅 **Discovered Date:** Newest First & Oldest First.
+    * 🏆 **Best Rank:** Historical highest rank achieved (#1 First).
+    * 🔠 **Language Clustering:** Clusters same-language repositories together with dominant languages surfaced first.
+  * **Trending Snapshots:** Daily, Weekly, and Monthly rankings with status badges (🔥 **[NEW ENTRY]** vs 🔄 **[Re-trending]**).
+  * **AI DevOps Analysis:** Gemini 2.5 Flash architectural analysis reports rendered in rich Markdown.
 
 ```bash
 # Run the dashboard locally
@@ -23,144 +35,127 @@ cd dashboard
 npm install
 npm run dev
 
-# Deploy to Vercel via Vercel CLI
+# Build and deploy to Vercel
+npm run build
 vercel deploy --prod
 ```
 
 ---
 
-## 🏗️ Architecture: Decoupled Data Storage
+## 🏗️ Architecture & Decoupled Database Design
 
-Previously, trending snapshots, repository history, and AI summaries were committed as markdown and JSON files directly into the repository `data/` directory. 
-
-With Supabase decoupled storage:
-- **`public.repositories`**: Replaces `history.json` with a relational repository catalog (name, url, language, stars, highest rank achieved, discovery date).
-- **`public.trending_snapshots`**: Replaces `data/daily/`, `data/weekly/`, and `data/monthly/` markdown logs with structured snapshot records.
-- **`public.feeder_queue`**: Replaces `data/feeder/latest/` filesystem queue with a transactional pending/processed queue.
-- **`public.ai_summaries`**: Replaces `data/summaries/` with structured date-indexed architectural analysis records.
-- **`public.summary_logs`**: Replaces `data/summary_log.json` to prevent duplicate summarization.
+All historical records, feeder queues, and AI analyses are stored relationally in Supabase PostgreSQL:
 
 ```
-                  ┌──────────────────────┐
-                  │ GitHub Trending Page │
-                  └──────────┬───────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │  git-trend.py   │
-                    └────────┬────────┘
-                             │
-            ┌────────────────┴────────────────┐
-            ▼                                 ▼
-┌─────────────────────────┐       ┌───────────────────────┐
-│  public.repositories    │       │  public.feeder_queue  │
-│  (Supabase PostgreSQL)  │       │  (Supabase Pending)   │
-└─────────────────────────┘       └───────────┬───────────┘
-                                              │
-                                              ▼
-                                     ┌─────────────────┐
-                                     │  summarize.py   │
-                                     │ (Gemini Flash)  │
-                                     └────────┬────────┘
-                                              │
-                                              ▼
-                                  ┌───────────────────────┐
-                                  │  public.ai_summaries  │
-                                  │  (Supabase Reports)   │
-                                  └───────────┬───────────┘
-                                              │
-                                              ▼
-                                  ┌───────────────────────┐
-                                  │   Vercel Dashboard    │
-                                  │ (Live React Analytics)│
-                                  └───────────────────────┘
+                   ┌───────────────────────────┐
+                   │   GitHub Trending Page    │
+                   └─────────────┬─────────────┘
+                                 │
+                                 ▼
+                        ┌─────────────────┐
+                        │   git-trend.py  │ ◄── [GITHUB_TOKEN 5k req/hr fallback]
+                        └────────┬────────┘
+                                 │
+                 ┌───────────────┴───────────────┐
+                 ▼                               ▼
+     ┌───────────────────────┐       ┌───────────────────────┐
+     │  public.repositories  │       │  public.feeder_queue  │
+     │  - name (UNIQUE)      │       │  - status: pending    │
+     │  - stars_count (INDEX)│       │  - UNIQUE(repo_name)  │
+     │  - LEAST rank logic   │       └───────────┬───────────┘
+     └───────────────────────┘                   │
+                 │                               ▼
+                 ▼                      ┌─────────────────┐
+     ┌───────────────────────┐          │  summarize.py   │
+     │  trending_snapshots   │          │ (Gemini Flash)  │
+     │  - daily/weekly/month │          └────────┬────────┘
+     │  - FOREIGN KEY CASCADE│                   │
+     └───────────────────────┘                   ▼
+                                     ┌───────────────────────┐
+                                     │  public.ai_summaries  │
+                                     │  (DevOps Reports)     │
+                                     └───────────┬───────────┘
+                                                 │
+                                                 ▼
+                                     ┌───────────────────────┐
+                                     │   Vercel Dashboard    │
+                                     │ (Live React Analytics)│
+                                     └───────────────────────┘
 ```
+
+### Database Invariants & Safety Measures
+1. **Crash-Safe Trigger (`set_stars_count`):** Automatic trigger converts string star counts (e.g. `"241,804"`) into an indexed `stars_count INTEGER` column using `COALESCE(NULLIF(REGEXP_REPLACE(NEW.total_stars, '[^0-9]', '', 'g'), '')::INTEGER, 0)`.
+2. **Rank Preservation (`LEAST` Logic):** In trending ranks, `#1` is superior to `#25`. The highest rank achieved is preserved deterministically using `LEAST(highest_rank_achieved, new_rank)`.
+3. **Queue Deduplication:** `feeder_queue` enforces `UNIQUE(repo_name)` to prevent duplicate pending queue entries during re-scrapes.
+4. **Referential Integrity:** Child tables (`trending_snapshots`, `feeder_queue`, `summary_logs`) reference `repositories(id) ON DELETE CASCADE`.
 
 ---
 
 ## 🚀 Getting Started
 
 ### 1. Prerequisites
-- Python 3.10+
-- Node.js 18+ (Node 22 LTS recommended)
+- Python 3.10+ (managed via `uv` or standard Python)
+- Node.js 18+ (Node 20+ LTS recommended)
 - Supabase CLI (`npm install -g supabase`)
 - Vercel CLI (`npm install -g vercel`)
 - Google Gemini API Key
 
-### 2. Installation
+### 2. Installation with `uv` (Recommended)
+This repository is fully configured for [uv](https://github.com/astral-sh/uv):
+
 ```bash
 # Clone the repository
 git clone https://github.com/Cyber-arghya/github-trend-tracker.git
 cd github-trend-tracker
 
-# Install Python dependencies
-pip install -r requirements.txt
+# Sync virtual environment & all dependencies instantly
+uv sync
 
-# Install Dashboard dependencies
+# Install frontend dashboard dependencies
 cd dashboard
 npm install
 cd ..
 ```
 
-### 3. Configure Environment Variables
+*(Alternatively with standard pip: `pip install -r requirements.txt`)*
+
+### 3. Environment Configuration
 Copy `.env.example` to `.env`:
 ```bash
 cp .env.example .env
 ```
-Populate your credentials:
+
+Configure your environment variables:
 ```env
+# Supabase Configuration
 SUPABASE_URL=https://<your-project-ref>.supabase.co
 SUPABASE_KEY=<your-service-role-or-anon-key>
-GEMINI_API_KEY=<your-gemini-api-key>
 STORAGE_MODE=supabase
+
+# AI Summarization
+GEMINI_API_KEY=<your-google-gemini-api-key>
+
+# GitHub API Token (Optional, raises fallback rate limit from 60 to 5,000 req/hr)
+GITHUB_TOKEN=<your-github-personal-access-token>
 ```
 
 ---
 
 ## ⚡ Supabase CLI Workflow
 
-The project is initialized with Supabase CLI (`supabase/config.toml` and migrations in `supabase/migrations/`).
-
-### Option A: Hosted Supabase Project (Active)
-1. Link to your hosted project:
-   ```bash
-   supabase link --project-ref <your-project-ref>
-   ```
-2. Push database migrations:
-   ```bash
-   supabase db push
-   ```
-
-### Option B: Local Supabase Development
-If you have Docker Desktop running:
-1. Start local Supabase containers:
-   ```bash
-   supabase start
-   ```
-2. Apply migrations locally:
-   ```bash
-   supabase migration up
-   ```
-
----
-
-## 🔄 Historical Data Migration
-
-To migrate your existing historical records from `data/` into Supabase:
+Database migrations are version-controlled in `supabase/migrations/`:
 
 ```bash
-# Test migration without modifying the database:
-python migrate_to_supabase.py --dry-run
+# Link to your hosted Supabase project
+supabase link --project-ref <your-project-ref>
 
-# Run full migration to Supabase:
-python migrate_to_supabase.py
+# Push migrations to remote database
+supabase db push
+
+# (Optional) Local Supabase development via Docker
+supabase start
+supabase migration up
 ```
-
-This migrates:
-- All 450+ repositories from `data/history.json` -> `public.repositories`
-- All 60+ AI markdown reports from `data/summaries/` -> `public.ai_summaries`
-- All 380+ processed entries from `data/summary_log.json` -> `public.summary_logs`
-- All 1,800+ historical trending rankings -> `public.trending_snapshots`
 
 ---
 
@@ -168,46 +163,85 @@ This migrates:
 
 ### 1. Scrape Trending Repositories
 ```bash
-# Using uv:
+# Run with uv:
 uv run git-trend.py
 
 # Or standard Python:
 python git-trend.py
 ```
-Discovers new trending repos, extracts their READMEs, upserts repository metadata into `repositories`, logs snapshot rankings into `trending_snapshots`, and queues unanalyzed tools into `feeder_queue`.
+- Fetches Daily, Weekly, and Monthly trending pages from GitHub.
+- Extracts language, stars, and descriptions with two-tier fallback (local history -> GitHub API).
+- Upserts repository records into `repositories`, logs historical snapshots into `trending_snapshots`, and enqueues unanalyzed repositories into `feeder_queue`.
 
-### 2. Generate AI Architecture Summaries
+### 2. Generate AI Architecture Reports
 ```bash
-# Using uv:
+# Run with uv:
 uv run summarize.py
 
 # Or standard Python:
 python summarize.py
 ```
-Pulls pending repositories from `feeder_queue`, analyzes production readiness with Gemini 2.5 Flash, saves the output to `ai_summaries`, and marks items as processed.
+- Retrieves pending repositories from `feeder_queue` in bounded batches (max 15 items per run).
+- Analyzes tool architecture, ROI, and production viability using Gemini 2.5 Flash.
+- Persists reports into `ai_summaries` and marks queue items as processed.
+- Gracefully alerts and exits if `GEMINI_API_KEY` is not set or uses a placeholder.
 
 ---
 
-## 🧪 Testing with `uv` & `pytest`
+## 🧪 Testing & Quality Assurance
 
-The project is fully **`uv` adaptive**. Run tests or sync environments using high-performance `uv`:
+Comprehensive automated tests verify HTML scraping, language extraction, fallback API requests, database decoupling, and ranking logic:
 
 ```bash
-# Sync virtual environment & development dependencies
-uv sync
-
-# Run the complete automated test suite (15/15 tests)
+# Run the complete test suite with pytest (15/15 tests passing)
 uv run pytest -v
 
-# Or run using standard Python unittest
+# Or standard Python unittest
 python -m unittest discover tests
 ```
 
 ---
 
-## 🤖 GitHub Actions Automation
+## 🤖 GitHub Actions CI/CD Automation
 
-The workflow `.github/workflows/automate.yml` runs daily at midnight UTC:
-- Executes `git-trend.py` and `summarize.py`
-- Reads `SUPABASE_URL`, `SUPABASE_KEY`, and `GEMINI_API_KEY` from repository secrets
-- Stores all data directly into Supabase without bloating git history
+Automated daily scraping and summarization run via `.github/workflows/automate.yml`:
+* **Schedule:** Daily at midnight UTC (`0 0 * * *`) + manual trigger (`workflow_dispatch`).
+* **Environment Secrets:**
+  * `SUPABASE_URL`
+  * `SUPABASE_KEY`
+  * `GEMINI_API_KEY`
+  * `GITHUB_TOKEN` (Automatically provided by GitHub Actions for 5,000 req/hr API access).
+* **Zero Git Bloat:** All records write directly to Supabase; git working tree remains 100% clean.
+
+---
+
+## 📁 Repository Structure
+
+```
+github-trend-tracker/
+├── .github/workflows/
+│   └── automate.yml          # Automated daily GitHub Action
+├── .agents/                  # Autonomous context, rules & gotchas
+├── dashboard/                # React (Vite) + Tailwind web application
+│   ├── src/
+│   │   ├── App.tsx           # Dashboard UI with infinite scroll & dynamic filters
+│   │   └── supabase.ts       # Supabase JS client
+│   └── package.json
+├── supabase/
+│   ├── config.toml           # Supabase CLI project configuration
+│   └── migrations/           # Versioned SQL migrations (triggers, indexes, schema)
+├── tests/
+│   ├── test_github_collector.py  # Unit tests for scraper & API fallback
+│   └── test_decoupling.py        # Integration tests for Supabase data layer
+├── git-trend.py              # Trending scraper with 2-tier fallback
+├── summarize.py              # Gemini AI architecture analyzer
+├── supabase_client.py        # Relational Supabase Data Access Layer
+├── pyproject.toml            # uv project manifest & pytest configuration
+├── requirements.txt          # Standard pip dependencies
+└── README.md                 # Complete project documentation
+```
+
+---
+
+## 📄 License
+This project is open-source under the [MIT License](LICENSE).
