@@ -3225,5 +3225,26 @@
         "highest_rank_achieved": 16,
         "total_stars": "2,252",
         "url": "https://github.com/scenario-labs/skills"
+    },
+    "lz4/lz4": {
+        "discovered_on": "2026-11-06",
+        "category_lang": "C",
+        "highest_rank_achieved": 8,
+        "total_stars": "12,442",
+        "url": "https://github.com/lz4/lz4"
+    },
+    "vercel-labs/agent-browser": {
+        "discovered_on": "2026-11-06",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 10,
+        "total_stars": "46,053",
+        "url": "https://github.com/vercel-labs/agent-browser"
+    },
+    "microsoft/VibeVoice": {
+        "discovered_on": "2026-11-06",
+        "category_lang": "Python",
+        "highest_rank_achieved": 13,
+        "total_stars": "56,168",
+        "url": "https://github.com/microsoft/VibeVoice"
     }
 }
