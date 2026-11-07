@@ -3246,5 +3246,82 @@
         "highest_rank_achieved": 13,
         "total_stars": "56,168",
         "url": "https://github.com/microsoft/VibeVoice"
+    },
+    "zed-industries/zed": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 1,
+        "total_stars": "93,778",
+        "url": "https://github.com/zed-industries/zed"
+    },
+    "rails/rails": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "Ruby",
+        "highest_rank_achieved": 3,
+        "total_stars": "59,049",
+        "url": "https://github.com/rails/rails"
+    },
+    "mpv-player/mpv": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "C",
+        "highest_rank_achieved": 4,
+        "total_stars": "37,919",
+        "url": "https://github.com/mpv-player/mpv"
+    },
+    "react/react": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "252,297",
+        "url": "https://github.com/react/react"
+    },
+    "angular/angular": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 7,
+        "total_stars": "101,411",
+        "url": "https://github.com/angular/angular"
+    },
+    "symfony/symfony": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "PHP",
+        "highest_rank_achieved": 8,
+        "total_stars": "31,469",
+        "url": "https://github.com/symfony/symfony"
+    },
+    "prometheus/prometheus": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "Go",
+        "highest_rank_achieved": 9,
+        "total_stars": "67,227",
+        "url": "https://github.com/prometheus/prometheus"
+    },
+    "nushell/nushell": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 13,
+        "total_stars": "41,012",
+        "url": "https://github.com/nushell/nushell"
+    },
+    "etcd-io/etcd": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "Go",
+        "highest_rank_achieved": 14,
+        "total_stars": "52,634",
+        "url": "https://github.com/etcd-io/etcd"
+    },
+    "openssl/openssl": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "C",
+        "highest_rank_achieved": 15,
+        "total_stars": "31,324",
+        "url": "https://github.com/openssl/openssl"
+    },
+    "astral-sh/ruff": {
+        "discovered_on": "2026-11-07",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 18,
+        "total_stars": "50,739",
+        "url": "https://github.com/astral-sh/ruff"
     }
 }
