@@ -3323,5 +3323,40 @@
         "highest_rank_achieved": 18,
         "total_stars": "50,739",
         "url": "https://github.com/astral-sh/ruff"
+    },
+    "meta/astryx": {
+        "discovered_on": "2026-11-08",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "14,710",
+        "url": "https://github.com/meta/astryx"
+    },
+    "sherlock-project/sherlock": {
+        "discovered_on": "2026-11-08",
+        "category_lang": "Python",
+        "highest_rank_achieved": 8,
+        "total_stars": "100,969",
+        "url": "https://github.com/sherlock-project/sherlock"
+    },
+    "tailwindlabs/tailwindcss": {
+        "discovered_on": "2026-11-08",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 11,
+        "total_stars": "98,543",
+        "url": "https://github.com/tailwindlabs/tailwindcss"
+    },
+    "mbillow/localthings": {
+        "discovered_on": "2026-11-08",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "1,095",
+        "url": "https://github.com/mbillow/localthings"
+    },
+    "dsx-ai-factory/nvke": {
+        "discovered_on": "2026-11-08",
+        "category_lang": "Go",
+        "highest_rank_achieved": 15,
+        "total_stars": "604",
+        "url": "https://github.com/dsx-ai-factory/nvke"
     }
 }
