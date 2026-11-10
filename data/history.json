@@ -3358,5 +3358,40 @@
         "highest_rank_achieved": 15,
         "total_stars": "604",
         "url": "https://github.com/dsx-ai-factory/nvke"
+    },
+    "google-deepmind/mujoco": {
+        "discovered_on": "2026-11-10",
+        "category_lang": "C++",
+        "highest_rank_achieved": 4,
+        "total_stars": "17,046",
+        "url": "https://github.com/google-deepmind/mujoco"
+    },
+    "anthropics/claude-quickstarts": {
+        "discovered_on": "2026-11-10",
+        "category_lang": "Python",
+        "highest_rank_achieved": 5,
+        "total_stars": "20,154",
+        "url": "https://github.com/anthropics/claude-quickstarts"
+    },
+    "garrytan/gbrain": {
+        "discovered_on": "2026-11-10",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "32,298",
+        "url": "https://github.com/garrytan/gbrain"
+    },
+    "ZhuLinsen/daily_stock_analysis": {
+        "discovered_on": "2026-11-10",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "69,210",
+        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    "homeassistant-ai/ha-mcp": {
+        "discovered_on": "2026-11-10",
+        "category_lang": "Python",
+        "highest_rank_achieved": 10,
+        "total_stars": "6,156",
+        "url": "https://github.com/homeassistant-ai/ha-mcp"
     }
 }
