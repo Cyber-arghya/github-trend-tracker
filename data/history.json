@@ -3393,5 +3393,19 @@
         "highest_rank_achieved": 10,
         "total_stars": "6,156",
         "url": "https://github.com/homeassistant-ai/ha-mcp"
+    },
+    "we-promise/sure": {
+        "discovered_on": "2026-11-11",
+        "category_lang": "Ruby",
+        "highest_rank_achieved": 6,
+        "total_stars": "12,173",
+        "url": "https://github.com/we-promise/sure"
+    },
+    "tokio-rs/topcoat": {
+        "discovered_on": "2026-11-11",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 10,
+        "total_stars": "6,920",
+        "url": "https://github.com/tokio-rs/topcoat"
     }
 }
