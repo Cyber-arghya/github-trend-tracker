@@ -3407,5 +3407,40 @@
         "highest_rank_achieved": 10,
         "total_stars": "6,920",
         "url": "https://github.com/tokio-rs/topcoat"
+    },
+    "GoogleChrome/modern-web-guidance-src": {
+        "discovered_on": "2026-11-12",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 3,
+        "total_stars": "1,980",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
+    },
+    "shadcn/improve": {
+        "discovered_on": "2026-11-12",
+        "category_lang": "Unknown",
+        "highest_rank_achieved": 4,
+        "total_stars": "11,140",
+        "url": "https://github.com/shadcn/improve"
+    },
+    "openai/codex-security": {
+        "discovered_on": "2026-11-12",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "11,925",
+        "url": "https://github.com/openai/codex-security"
+    },
+    "TheAlgorithms/Java": {
+        "discovered_on": "2026-11-12",
+        "category_lang": "Java",
+        "highest_rank_achieved": 10,
+        "total_stars": "67,140",
+        "url": "https://github.com/TheAlgorithms/Java"
+    },
+    "herdrdev/herdr": {
+        "discovered_on": "2026-11-12",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 13,
+        "total_stars": "50,421",
+        "url": "https://github.com/herdrdev/herdr"
     }
 }
