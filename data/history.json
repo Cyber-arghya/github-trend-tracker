@@ -3442,5 +3442,33 @@
         "highest_rank_achieved": 13,
         "total_stars": "50,421",
         "url": "https://github.com/herdrdev/herdr"
+    },
+    "pookjw/HermesEnabler": {
+        "discovered_on": "2026-11-13",
+        "category_lang": "Objective-C",
+        "highest_rank_achieved": 4,
+        "total_stars": "1,622",
+        "url": "https://github.com/pookjw/HermesEnabler"
+    },
+    "QwenLM/qwen-code": {
+        "discovered_on": "2026-11-13",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 6,
+        "total_stars": "29,950",
+        "url": "https://github.com/QwenLM/qwen-code"
+    },
+    "ashhart/TensorFold": {
+        "discovered_on": "2026-11-13",
+        "category_lang": "Zig",
+        "highest_rank_achieved": 7,
+        "total_stars": "1,999",
+        "url": "https://github.com/ashhart/TensorFold"
+    },
+    "ggml-org/llama.cpp": {
+        "discovered_on": "2026-11-13",
+        "category_lang": "C++",
+        "highest_rank_achieved": 13,
+        "total_stars": "134,679",
+        "url": "https://github.com/ggml-org/llama.cpp"
     }
 }
