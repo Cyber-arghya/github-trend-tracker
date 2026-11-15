@@ -3512,5 +3512,33 @@
         "highest_rank_achieved": 15,
         "total_stars": "85,443",
         "url": "https://github.com/lobehub/lobehub"
+    },
+    "ag-ui-protocol/ag-ui": {
+        "discovered_on": "2026-11-15",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 8,
+        "total_stars": "17,435",
+        "url": "https://github.com/ag-ui-protocol/ag-ui"
+    },
+    "Tencent/LoopForge": {
+        "discovered_on": "2026-11-15",
+        "category_lang": "Go",
+        "highest_rank_achieved": 13,
+        "total_stars": "992",
+        "url": "https://github.com/Tencent/LoopForge"
+    },
+    "martin-olivier/airgorah": {
+        "discovered_on": "2026-11-15",
+        "category_lang": "Rust",
+        "highest_rank_achieved": 15,
+        "total_stars": "5,994",
+        "url": "https://github.com/martin-olivier/airgorah"
+    },
+    "Vincentwei1021/video-shotcraft": {
+        "discovered_on": "2026-11-15",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "19,712",
+        "url": "https://github.com/Vincentwei1021/video-shotcraft"
     }
 }
