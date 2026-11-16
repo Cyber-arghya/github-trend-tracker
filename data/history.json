@@ -3540,5 +3540,33 @@
         "highest_rank_achieved": 14,
         "total_stars": "19,712",
         "url": "https://github.com/Vincentwei1021/video-shotcraft"
+    },
+    "google-labs-code/stitch-skills": {
+        "discovered_on": "2026-11-16",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 3,
+        "total_stars": "9,436",
+        "url": "https://github.com/google-labs-code/stitch-skills"
+    },
+    "ggml-org/ggml": {
+        "discovered_on": "2026-11-16",
+        "category_lang": "C++",
+        "highest_rank_achieved": 8,
+        "total_stars": "15,980",
+        "url": "https://github.com/ggml-org/ggml"
+    },
+    "elementalsouls/Claude-BugHunter": {
+        "discovered_on": "2026-11-16",
+        "category_lang": "Python",
+        "highest_rank_achieved": 9,
+        "total_stars": "6,677",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter"
+    },
+    "NVIDIA/SkillEvaluator": {
+        "discovered_on": "2026-11-16",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "1,896",
+        "url": "https://github.com/NVIDIA/SkillEvaluator"
     }
 }
