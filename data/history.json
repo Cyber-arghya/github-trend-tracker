@@ -3568,5 +3568,40 @@
         "highest_rank_achieved": 12,
         "total_stars": "1,896",
         "url": "https://github.com/NVIDIA/SkillEvaluator"
+    },
+    "getarcaneapp/arcane": {
+        "discovered_on": "2026-11-17",
+        "category_lang": "Go",
+        "highest_rank_achieved": 6,
+        "total_stars": "8,923",
+        "url": "https://github.com/getarcaneapp/arcane"
+    },
+    "DeanChensj/jiangshan-map": {
+        "discovered_on": "2026-11-17",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 7,
+        "total_stars": "7,272",
+        "url": "https://github.com/DeanChensj/jiangshan-map"
+    },
+    "google-research/paper-orchestra": {
+        "discovered_on": "2026-11-17",
+        "category_lang": "Python",
+        "highest_rank_achieved": 12,
+        "total_stars": "1,835",
+        "url": "https://github.com/google-research/paper-orchestra"
+    },
+    "sveltejs/svelte": {
+        "discovered_on": "2026-11-17",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 14,
+        "total_stars": "89,113",
+        "url": "https://github.com/sveltejs/svelte"
+    },
+    "kajisho5/ffmpeg-skill": {
+        "discovered_on": "2026-11-17",
+        "category_lang": "Python",
+        "highest_rank_achieved": 15,
+        "total_stars": "7,212",
+        "url": "https://github.com/kajisho5/ffmpeg-skill"
     }
 }
