@@ -3687,5 +3687,12 @@
         "highest_rank_achieved": 7,
         "total_stars": "7,441",
         "url": "https://github.com/Jakeschincariol/instagram-agent-skill"
+    },
+    "yetone/magpie": {
+        "discovered_on": "2026-11-24",
+        "category_lang": "Go",
+        "highest_rank_achieved": 10,
+        "total_stars": "40,789",
+        "url": "https://github.com/yetone/magpie"
     }
 }
