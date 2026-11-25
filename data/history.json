@@ -3694,5 +3694,12 @@
         "highest_rank_achieved": 10,
         "total_stars": "40,789",
         "url": "https://github.com/yetone/magpie"
+    },
+    "Ebony-Vinyl/dsh-our-free-model": {
+        "discovered_on": "2026-11-25",
+        "category_lang": "JavaScript",
+        "highest_rank_achieved": 9,
+        "total_stars": "86,507",
+        "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
     }
 }
