@@ -3701,5 +3701,12 @@
         "highest_rank_achieved": 9,
         "total_stars": "86,507",
         "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model"
+    },
+    "n8n-io/nod": {
+        "discovered_on": "2026-11-26",
+        "category_lang": "TypeScript",
+        "highest_rank_achieved": 4,
+        "total_stars": "3,667",
+        "url": "https://github.com/n8n-io/nod"
     }
 }
