@@ -3708,5 +3708,12 @@
         "highest_rank_achieved": 4,
         "total_stars": "3,667",
         "url": "https://github.com/n8n-io/nod"
+    },
+    "obsidianmd/obsidian-skills": {
+        "discovered_on": "2026-11-27",
+        "category_lang": "Shell",
+        "highest_rank_achieved": 13,
+        "total_stars": "54,120",
+        "url": "https://github.com/obsidianmd/obsidian-skills"
     }
 }
